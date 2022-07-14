@@ -1,0 +1,123 @@
+ 
+ * {
+margin: 0;
+padding:0;
+box-sizing:border-box;
+ }
+ .main {
+    display:flex
+ }
+.main1 p {
+  background-image: url(../photos/doreamon.png);
+  background-size:cover;
+  font-size: 15px;
+  padding-top: 10px;
+  border-bottom-left-radius: 25px;
+  margin:20px;
+  height:100%;
+  
+  
+
+  box-shadow: 1px 1px 30px;
+  background-origin: padding-box;
+}
+   .main2 p {
+       background-image: url(../photos/pokemon.jpg);  
+       background-size:cover;
+        border-bottom-left-radius: 25px;
+        padding-top: 140px;
+        font-size: 15px;
+        margin:10px;
+        height:auto;
+width:200px;
+   }
+   .main3 p {
+    background-image: url(../photos/doreamon.jpg);
+    background-size:cover;
+    font-size: 10px;
+    border-bottom-left-radius: 25px;
+    width: 100px;
+  
+height :auto;
+    margin: auto
+    padding-top : 8px ;
+     box-shadow : 0px 0px 20px;
+   }  
+  .mean {
+    display:flex
+  }
+  .mean1 {
+  
+    background-image: url(../photos/doreamon.jpg);
+    
+    padding:10px ;
+    color:crimson ;
+    border-radius: 10%;
+    background-size:cover;
+    font-size: 10px;
+    width:100px;
+height :auto;
+    margin:auto;
+    
+  }
+  .mean2 p{
+    background-image: url(../photos/facebook.png);
+    background-size: cover;
+    padding:10px ;
+    color:rgb(10, 1, 2) ;
+    border-radius: 10%;
+    background-size:cover;
+    font-size: 10px;
+    width:100px;
+height :auto;
+    margin: auto
+  }
+  .mean3 {
+    background-image: url(../photos/pikachu.jpg);
+    background-size: contain;
+    padding:10px ;
+    color:#0a0102 ;
+    border-radius: 20%;
+    background-size:cover;
+    font-size: 10px;
+width:100px;
+height :auto;
+    margin: auto
+  }
+  .smart {
+    display:flex
+  }
+  .smart1 p{
+    background-image: url(../photos/pokemon.jpg);
+    background-size: contain;
+    padding:10px ;
+    color:#0a0102 ;
+    border-radius: 20%;
+    background-size:cover;
+    font-size: 10px;
+    width:100px;
+height :auto;
+    margin: auto
+  }
+  .smart2 {
+  background-image: url(../photos/doreamon.png);
+  font-style: inherit;
+  padding:20px ;
+  border-radius: 20%;
+  background-size:cover;
+  font-size: 20px;
+  width:300px;
+  margin: auto
+}
+.smart3 p {
+  background-color: aqua;
+  padding:10px ;
+  background-size:cover;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  font-size: 30px;
+  width:300px;
+height :auto;
+  margin: 20px;
+  box-shadow: 0px 10px 20px;
+}

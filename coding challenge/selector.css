@@ -1,0 +1,81 @@
+
+@@ -1,38 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&family=Rubik+Moonrocks&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d5ea97c1-5218-4234-85e3-0a8aaa5a4153/dbakow8-844d413a-4af0-4806-a74a-d1aae46ef537.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q1ZWE5N2MxLTUyMTgtNDIzNC04NWUzLTBhOGFhYTVhNDE1M1wvZGJha293OC04NDRkNDEzYS00YWYwLTQ4MDYtYTc0YS1kMWFhZTQ2ZWY1MzcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.UCFEIIy1hgQ0bZec4jtGRXj4tOR_UNPqG1Lm8XgKJTc");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 300px;
+  background-color: aqua;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* filter: grayscale(0); */
+  /* filter: brightness(1.2); */
+  /* filter: contrast(2); */
+  /* filter: opacity(01); */
+  /* opacity: 0.2; */
+  /* filter: blur(34px); */
+  filter: sepia(1) contrast(1.2) blur(4px);
+}
+
+.main p {
+  /* font-family: "Edu VIC WA NT Beginner", cursive; */
+  font-family: "Rubik Moonrocks", cursive;
+}
+.main p img {
+/* .main p img {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+} */
+
+.main2 {
+  width: 120px;
+  height: 120px;
+  box-shadow: 0px 0px 10px 1px black;
+
+  margin: 2% auto;
+  border-radius: 10px;
+  /* border-radius: 10px; */
+  /* background-image: url(./assets/images/pikachu.webp); */
+  background-image: url(https://images.unsplash.com/photo-1528360983277-13d401cdc186?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZGFyayUyMGphcGFufGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main2 img {
+  width: 100px;
+  margin: 10px;
+  border: 1px double red;
+  float: right;
+  margin: 1%;
+  border: 1px solid grey;
+  border-radius: 50%;
+  /* box-shadow: 0px 0px 10px 5px black; */
+  box-shadow: 0px 0px 6px 1px floralwhite;
+}
+
+.main2 .p1 {
+  font-size: 12px;
+  color: whitesmoke;
+  width: fit-content;
+  margin: auto;
+  padding: 3% 0%;
+}
+.main2 .p2 {
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  font-size: 5px;
+  color: wheat;
+  width: 80%;
+  margin: auto;
+  margin-top: 49%;
+  margin-top: 1%;
+}

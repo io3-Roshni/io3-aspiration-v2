@@ -1,11 +1,11 @@
 *{
-    margin-left: 0px;
-    
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 tr,
 th{
-    height: 20px;
     width: 50px;
 }
 table {
@@ -17,4 +17,29 @@ table {
     border-collapse:collapse;
     margin:30px;
     padding:0;
+}
+.first {
+    background-color:gray; 
+    
+  }
+  th.th1{
+    background-color:rgb(189, 225, 189)
+  }
+  th.th2{
+     background-color:rgb(20, 66, 66)
+  }
+th.th3{
+background-color:rgb(156, 169, 219)
+}
+th{
+background-color: rgb(229, 219, 219); 
+
+}
+th.space {
+height: 5px;
+width: 50px;
+
+}
+body{
+display:inline;
 }

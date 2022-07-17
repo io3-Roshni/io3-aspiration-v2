@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body {
+   
+    background-color: rgb(195, 194, 194);
+}
+
+
+.blank {
+    display:inline-block;
+    width: 100px;
+    height: 50px;
+    
+}
+.blank2 {
+    display: inline-block;
+    width:180px;
+    height: 50px;
+    
+}
+.twitter {
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    line-height: 0px;
+    
+    
+}
+.blank3{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    
+}
+.pp {
+    display: inline-block;
+    width: 200;
+    height: 60;
+    background-color: deepskyblue;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    
+    
+}
+.table1 {
+    display: inline-block;
+    padding: 15px;
+    
+}
+
+.nav {
+    height: 50px;
+    background-color: white; 
+    margin-bottom: 2px;
+    line-height: 15px;
+}
+.div1 {
+    display: inline-block;
+    background-color: white;
+    margin-left:10%;
+    width: 20%;
+    height: 70px;
+
+}
+
+.div1-1 {
+    display: inline-block;
+    background-color: blue;
+    margin-left:8px;
+    width:100%;
+    height: 70px;
+}
+.div1-2 {
+    display: inline-block;
+    background-color: wheat;
+    margin-left:8px;
+    width:100%;
+    height: 70px;
+    font-size: 15px;
+    color: rgb(54, 51, 51);
+    
+}
+/* .div1-2 #num {
+    color: rgb(4, 156, 250);
+} */
+.div2 {
+    display:inline-block;
+    background-color:white;
+    width: 40%;
+    height: 80px;
+    font-size: 10px;
+
+}
+
+ 
+.div2-11{
+    display: inline-block;
+    background-color:white;
+    width: 35%;
+    height: 100px;
+    margin-left:40px ;
+    font-size: 10px;
+}
+
+.divchild1 {
+    
+    display: inline-block;
+    width:45px;
+    height: 50px;
+    margin:6px;
+    background-image: url(../photos/largeremy.jpg);
+    background-size:cover;
+    border-radius: 50px;
+}
+.div3 {
+    display: inline-block;
+    background-color: white;
+    width: 20%;
+    height: 170px;
+    padding:20px;
+
+} 
+
+
+.rata {
+    display: inline-block;
+    width:155px;
+    height: 50px;
+    background-image: url(../photos/boy.jpg);
+    background-size:contain ;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+
+}
+.rat {
+    display: inline-block;
+    width:155px;
+    height: 50px;
+    background-image: url(../photos/00remy.jpg);
+    background-size:contain ;
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    
+}
+.divchild {
+    display: inline-block;
+    width:45px;
+    height: 50px;
+    margin:6px;
+    background-image: url(../photos/largeremy.jpg);
+    background-size:cover;
+    border-radius: 50px;
+    
+}
+.Remy{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+}
+.blankpp {
+    display: inline-block;
+    width:100px;
+    height: 40px;
+    background-color: blueviolet;
+}

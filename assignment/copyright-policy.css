@@ -5,25 +5,26 @@
     font-family: "Roboto",sans-serif;
     color: rgb(51, 92, 125);
 }
-.conditions {
-    bodred:1px solid black;
+.policy {
+    
     width:95%;
     height: fit-content;
     padding: 75px;
     margin: auto;
 }
-p {
+p ,ol {
     padding: 0px 0px 0px 0px;
     margin: 10px 0px 0px 0px;
-    font-size: 13px;
-    font-weight: bolder;
+    font-size: 14px;
+   
 }
 h1{
-    font-size: 28px;
-    margin: px 0px -15px 0px;
+    font-size: 25px;
+    margin: 0px 0px 1px 0px;
     padding: 25px 0px 1px 0px;
 
-}
-a{
-    color: rgb(9, 122, 208);
+} 
+ol li {
+    padding: 1px 0px 0px 0px;
+    margin-left: 40px;
 }

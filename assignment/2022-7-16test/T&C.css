@@ -7,23 +7,33 @@
 }
 .conditions {
 
-    width:95%;
+    width:90%;
     height: fit-content;
     padding: 75px;
     margin: auto;
+    font-weight: bolder;
 }
 p {
     padding: 0px 0px 0px 0px;
     margin: 10px 0px 0px 0px;
-    font-size: 13px;
-    font-weight: bolder;
+    font-size: 16px;
+    
 }
 h1{
-    font-size: 26px;
+    font-size: 32px;
     margin: px 0px -15px 0px;
     padding: 25px 0px 1px 0px;
 
 }
 a{
     color: rgb(9, 122, 208);
+}
+#circle {
+    list-style-type:circle;
+    margin-left: 80px;
+   
+} 
+li {
+ margin-left: 40px;
+
 }

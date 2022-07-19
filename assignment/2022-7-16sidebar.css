@@ -13,17 +13,51 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
+
 .items {
-    display: flex;
+    display:inline-block;
     margin-left: 250px;
-    width: auto;
-    height:auto ;
+    width: 780px;
+    height:650px;
     border: 1px solid black;
     background-color: aqua;
-}
+
+ }
+
+ 
 #mob {
     display: flex;
-    width: auto;
-    height: auto;
-    background-color: bisque;
+   flex-direction: row;
+   width: 100%;
+   height: 50%;
+  padding: 10px; 
+    background-color:white;
+}
+#mobile1{
+    width: 25%;
+    height: 100%;
+    background-color:white;
+    border-radius: 10% ;
+    padding: 10px;
+    border: 1px solid rgb(234, 232, 232);
+    margin: 5px;
+}
+
+#mob2 {
+    display: flex;
+   flex-direction: row;
+   width: 100%;
+   height: 50%;
+   padding: 10px;
+    background-color:white;
+}
+
+#mobile2{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10%;
+    padding: 10px;
+    border: 1px solid rgb(234, 232, 232);
+    margin: 5px;
 }

@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+    color: rgb(51, 92, 125);
+}
+.conditions {
+
+    width:95%;
+    height: fit-content;
+    padding: 75px;
+    margin: auto;
+}
+p {
+    padding: 0px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+h1{
+    font-size: 26px;
+    margin: px 0px -15px 0px;
+    padding: 25px 0px 1px 0px;
+
+}
+a{
+    color: rgb(9, 122, 208);
+}

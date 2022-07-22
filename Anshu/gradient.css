@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     flex-direction: row;
 }
-.red, .green, .black, .blue, .skyblue, .litegreen {
+.red, .green, .black, .blue, .skyblue, .litegreen, .orange , .skyblue1{
     width: 12%;
     height: 160px;
 } 
@@ -22,25 +22,35 @@
     border-bottom-left-radius: 60px;
 }
 .green {
-    background-image:radial-gradient(pink,yellow,black);
+    background-image:linear-gradient(pink,yellow,black);
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
 }
 .blue{
-    background-image: radial-gradient(white, orange, yellow);
+    background-image: linear-gradient(white, orange, yellow);
     border-top-left-radius: 60px; 
     border-bottom-left-radius:60px;
 }
 .skyblue{
-    background-image: radial-gradient(blue, white, green);
+    background-image: radial-gradient(rgb(255, 0, 0), white, green);
     border-top-left-radius: 45px;
-    border-bottom-left-radius: 45px;
-    border-bottom-right-radius: 45;
+    border-bottom-right-radius: 45px;
 }
 .orange{
-    background-image: radial-gradient(red, blue, white);
-    border-top-left-radius: 45px;
+    background-image: radial-gradient(farthest-side at 90% 15%, red, blue, white);
+    border-top-left-radius: 80px;
     border-bottom-left-radius: 45px;
-    border-bottom-right-radius: 45;
+    border-bottom-right-radius: 80px;
 }
 
+.skyblue1{
+    background-image: radial-gradient(farthest-side at 15% 90%, red, blue, white);
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+}
+img{
+    height: 50px;
+    width: 50px;
+
+}

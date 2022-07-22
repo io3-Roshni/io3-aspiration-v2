@@ -44,7 +44,7 @@
 
 }
 #green{
-    background-image: radial-gradient(farthest-side at 100% 0%, rgb(255, 0, 251),yellow, rgb(0, 255, 204));
+    background-image: radial-gradient(farthest-side at 100% 0%, rgb(103, 5, 102),rgb(7, 147, 234), white);
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;

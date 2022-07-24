@@ -7,7 +7,7 @@
 body{
     background-color: rgb(159, 222, 237);
 }
-#main{
+ #main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -15,7 +15,7 @@ body{
     width: 800px;
     height: 500px;
     margin: 70px 0px 0px 100px;
-}
+} 
 .child1{
     background-color:white;
     width: 200px;
@@ -24,6 +24,7 @@ body{
     border: 2px solid black;
    
 }
+
 .fa-circle{
     font-size: 5px;
 }
@@ -42,15 +43,14 @@ body{
     font-size: 10px;
     padding: 0px 0px 0px 0px;
 }
-
-
-
-
 .fa-brands, .fa-solid, .fa-regular{
     margin: 10px 0px 0px 20px;
     font-size: 10px;
+    transition-duration: 0.5s;
 }
-.fa-buffer{
+
+
+.fa-buffer,.fa-bell, .fa-sliders, .fa-comment{
     font-size: 15px;
 }
 .fa-buffer:hover{
@@ -79,6 +79,13 @@ body{
     color: cornflowerblue;
     cursor:pointer;
     font-size: 20px;
+  
+}
+.fa-searchengin:hover{
+    color: darkcyan;
+    transform: rotate(30deg);
+    transition-duration: 0.5s;
+    
 }
 .fa-envelope:hover{
     color: cornflowerblue;
@@ -104,6 +111,22 @@ body{
 .fa-comment:hover{
     color: cornflowerblue;
     cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.fa-sliders:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+    font-size: 15px;
+}
+.fa-circle-user:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+    font-size: 20px;
+}
+.fa-comment:hover{
+    color: cornflowerblue;
+    cursor: pointer;
     font-size: 20px;
 }
 .fa-sliders:hover{
@@ -111,15 +134,12 @@ body{
     cursor: pointer;
     font-size: 20px;
 }
-.fa-circle-user:hover{
-    color: cornflowerblue;
-    cursor: pointer;
-    font-size: 20px;
-}
-.bold:hover{
-    font-size: 10px;
-    color: rgb(255, 25, 25);
-}
+/* .bold:hover{
+    font-size: 15px;
+    color: rgb(3, 92, 81);
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+} */
 .fa-circle{
     font-size: 5px;
     padding: 0px 0px 0px 0px;
@@ -135,7 +155,7 @@ body{
     box-shadow: 0px 2px 0px 1px;
     
 }
-#chill1{
+#button1{
     
     height: 30px;
     width: 80px;
@@ -143,11 +163,19 @@ body{
     font-size: 10PX;
     color: white;
     padding: 10PX 0px 0px 10px;
-    background-color: blue;
+    background-color: rgb(83, 176, 234);
    
 }
+#button1:hover{
+    background-color: rgb(2, 54, 137);
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    width: 100px;
+    transition-duration: 0.5s;
+}
 
-#chill2{ 
+#button2{ 
     height: 30px;
     width: 80px;
     border-radius: 20px;
@@ -156,9 +184,61 @@ body{
     padding: 10PX 0px 0px 10px;
     
 }
+#button2:hover{
+    background-color: rgb(2, 54, 137);
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    width: 100px;
+    transition-duration: 0.5s;
+}
+#button01{
+    
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    font-size: 10PX;
+    color: white;
+    padding: 10PX 0px 0px 10px;
+    background-color: rgb(1, 11, 17);
+}
+
+#button01:hover{
+    background-color: rgb(2, 54, 137);
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    width: 100px;
+    transition-duration: 0.5s;
+}
+#button02{
+    
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    font-size: 10PX;
+    color: black;
+    padding: 10PX 0px 0px 10px;
+    background-color: white;
+}
+#button02:hover{
+    background-color: rgb(2, 54, 137);
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    width: 100px;
+    transition-duration: 0.5s;
+}
 h3{
     margin-left: 20px;
     font-size: 15px;
+}
+h3:hover{
+    padding-left: 20px;
+    transform: scale(130%);
+    transition-duration: 0.7s;
+    color: rgb(3, 58, 100);
+    
 }
 
 #child3{
@@ -174,6 +254,12 @@ h3{
 }
 img{
     border-radius: 50px;
+    
+}
+img:hover{
+    transform: scale(150%);
+    cursor: pointer;
+    box-shadow: 0px 1px 0px 1px;
 }
 #para{
     padding: 0px 0px 50px 5px;
@@ -181,6 +267,7 @@ img{
     width: 150px;
     height: 40px;
 }
+
 span{
     color: cornflowerblue;
 }
@@ -191,6 +278,18 @@ span{
     color:red
 }
 
+.fa-circle-chevron-right:hover{
+    color: rgb(4, 168, 67);
+    font-size: 15px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.fa-circle-chevron-left:hover{
+    color: rgb(238, 9, 9);
+    font-size: 15px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
 .child2{
     width: 50px;
     height: 500px;
@@ -206,14 +305,19 @@ span{
     margin: 120px 0px 0px 10px;
 }
 
-
+/* p:hover{
+    color: rgb(14, 2, 85);
+    font-size: 11px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+} */
 
 .child3{
     width: 200px;
     height: 500px;
     margin-left: 50px;
     border-radius: 30px;
-    background-color: rgb(21, 78, 235);
+    background-color: rgb(83, 180, 240);
     border: 2px solid black;
 }
 .child4{
@@ -221,7 +325,7 @@ span{
     height: 500px;
     border-radius: 20px;
     margin-left: 30px;
-    background-color:  rgb(21, 78, 235);
+    background-color:  rgb(83, 180, 240);
     border: 2px solid black;
 
 }

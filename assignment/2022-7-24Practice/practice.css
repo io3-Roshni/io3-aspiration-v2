@@ -82,10 +82,15 @@ body{
   
 }
 .fa-searchengin:hover{
-    color: darkcyan;
-    transform: rotate(30deg);
+    color: rgb(4, 120, 15);
+    transform: rotate(20deg);
     transition-duration: 0.5s;
-    
+}
+.fa-magnifying-glass-plus:hover{
+    color: rgb(3, 52, 112);
+    transform: rotate(20deg);
+    transition-duration: 0.5s;
+    font-size: 20px;
 }
 .fa-envelope:hover{
     color: cornflowerblue;

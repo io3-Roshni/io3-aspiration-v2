@@ -1,39 +1,78 @@
 *{
     margin:0px;
     padding:0px;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 .main{
-    width:80%;
-    height:700px;
-background-color: #ff3572 ;
-margin:auto;
+    display: flex;
+    width:100%;
+    height:660px;
+
+
 }
+.white1{
+    width: 10%;
+    height: 660px;
+    background-color: aquamarine;
+}
+
+.white2{
+    width: 80%;
+    height: 660px;
+    background-color: rgba(6, 163, 248, 0.926);
+}
+
 .child1{
-    width:35%;
+    width:300px;
     height:300px;
-background-color: #ff8472 ;
-transform:rotate(50deg);
+background-image:URL(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUgAAACaCAMAAAD8SyGRAAAAA1BMVEU4ljX8qmBNAAAASElEQVR4nO3BMQEAAADCoPVPbQo/oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADeBsXqAAEdWhRHAAAAAElFTkSuQmCC) ;
+transform:rotate(45deg);
 position:fixed;
-top:30%;
-right:-80px;
+top:20%;
+right:-50px;
+box-shadow: 1px 0px 20px 1px;
+border-radius:10px;
 }
 .child2{
-    width:20%;
+    width:160px;
     height:160px;
-background-color: #ff38 ;
-transform:rotate(50deg);
+    background-image:URL(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbPoDD3Ot0hSvan4xn3QjaUiXMB1mpmG1PIA&usqp=CAU);
+transform:rotate(45deg);
 position:fixed;
-top:14%;
-margin-left:470px;
+top:12%;
+margin-left:490px;
+box-shadow: 1px 0px 20px 1px;
+border-radius:10px;
 }
 .child3{
-    width:20%;
-    height:160px;
-background-color: #f838 ;
-transform:rotate(50deg);
+    width:165px;
+    height:165px;
+    background-image:URL(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO2SCRxV1BPzK8ZgVV16_yVuoaI-YT96LB2g&usqp=CAU);
+transform:rotate(45deg);
 position:fixed;
-top:14%;
-margin-left:370px;
+top:30%;
+margin-left:355px;
+box-shadow: 1px 0px 20px 1px;
+border-radius:10px;
+}
+.child4{
+    width:200px;
+    height:200px;
+background-image:URL(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbGzYGZMmNvpuF7LjDoeFDOwvCEi1rPmaYrw&usqp=CAU);
+transform:rotate(45deg);
+position:fixed;
+top:52%;
+margin-left:480px;
+box-shadow: 1px 0px 20px 1px;
+border-radius:10px;
+}
+
+.pipe1{
+    width:40px;
+    height:400px;
+    top:20%;
+    margin-left:400px;
+    background-color: coral;
+    transform:rotate(45deg);
 }

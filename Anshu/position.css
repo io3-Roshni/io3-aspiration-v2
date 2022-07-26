@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box
+}
+
+.main{
+    width:80%;
+    height:700px;
+background-color: #ff3572 ;
+margin:auto;
+}
+.child1{
+    width:35%;
+    height:300px;
+background-color: #ff8472 ;
+transform:rotate(50deg);
+position:fixed;
+top:30%;
+right:-80px;
+}
+.child2{
+    width:20%;
+    height:160px;
+background-color: #ff38 ;
+transform:rotate(50deg);
+position:fixed;
+top:14%;
+margin-left:470px;
+}
+.child3{
+    width:20%;
+    height:160px;
+background-color: #f838 ;
+transform:rotate(50deg);
+position:fixed;
+top:14%;
+margin-left:370px;
+}

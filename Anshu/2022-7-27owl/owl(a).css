@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+
+}
+
+
+.main{
+    width:30%;
+    height:600px;
+    background-color: bisque;
+    margin:auto;
+}
+
+
+.upperbody{
+    width:70%;
+    height:200px;
+    background-color:cornflowerblue;
+    margin:auto;
+position:relative;
+top:10%;
+border-radius:50%;
+}
+
+.whiteboll1, .whiteboll2{
+    width:45%;
+    height:100px;
+    background-color:white;
+    margin:auto;
+position:absolute;
+top:20%;
+border-radius:50%;
+}
+
+.whiteboll1{
+left: 8%;
+}
+.whiteboll2{
+    right:8%;
+}
+.blackboll1, .blackboll2{
+    width:45%;
+    height:60px;
+    background-color:rgb(10, 10, 10);
+    margin:auto;
+position:absolute;
+top:20%;
+border-radius:50%;
+}
+.blackboll1{
+    left:25%;
+}
+.blackboll2{
+    right:25%;
+}
+
+.whiteboll1{
+    width:45%;
+    height:10px;
+    background-color:rgb(245, 235, 235);
+    margin:auto;
+position:absolute;
+top:20%;
+border-radius:50%;
+
+}
+.hiteboll1{
+    width:45%;
+    height:10px;
+    background-color:rgb(245, 235, 235);
+    margin:auto;
+position:absolute;
+top:20%;
+border-radius:50%;
+
+}
+
+
+.whiteboll1{
+    left:25%;
+}
+.whiteboll2{
+    right:25%;
+}
+
+
+/* .rightyear{
+    width:5%;
+    height:50px;
+    background-color:cornflowerblue;
+    margin:10px;
+}
+
+
+.leftyear{
+    width:5%;
+    height:50px;
+    background-color:rgb(100, 237, 157);
+    margin:23px;
+}
+
+
+.lowerbody{
+    width:30%;
+    height:200px;
+    background-color:rgb(8, 48, 26);
+    margin:17px;
+}
+
+
+.righthand{
+    width:10%;
+    height:20px;
+    background-color:rgb(57, 61, 61);
+    margin:27px;
+}
+
+
+.lefthand{
+    width:10%;
+    height:20px;
+    background-color:rgb(153, 70, 70);
+    margin:10px;
+}
+
+
+.rightleg{
+    width:10%;
+    height:40px;
+    background-color:rgb(179, 133, 34);
+    margin:9px;
+}
+
+
+.leftleg{
+    width:10%;
+    height:40px;
+    background-color:rgba(55, 78, 121, 0.637);
+    margin:25px;
+} */

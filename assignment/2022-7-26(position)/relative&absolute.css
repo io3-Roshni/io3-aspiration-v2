@@ -6,128 +6,188 @@
 .main{
     display: flex;
     width: 100%;
-    height: 660px;
+    height: 657px;
  
 }
 .white1{
-    width:15%;
-    height: 660px;
+    width:25%;
+    height: 657px;
     background-color:white;
 z-index:1;
 }
 .white2{
-    width: 90%;
-    height: 660px;
-    background-color:rgb(229, 250, 226);
+    width: 50%;
+    height: 657px;
+    background-color:white;
+    border: 1px solid rgb(231, 229, 229);
     margin: auto;
+    position:relative;
 }
-.color{
+
+.image1{
     width: 300px;
     height: 300px;
     background-image:linear-gradient(45deg, rgb(126, 243, 126), rgb(2, 98, 2), rgb(92, 245, 92));
     transform: rotate(45deg);
-    position:fixed;
-    top:18%;
-    right:-39px;
+    position:relative;
+    top:13%;
+   margin-left: 400px;
     border-radius: 20px;
-    box-shadow: 0px 1px 10px 4px;
+    box-shadow:  5px 5px 10px 1px
 }
-.image1{
-    width: 160px;
-    height: 160px;
+
+.image2{
+    width: 140px;
+    height: 140px;
     background-image:url(/photos/girl2.jpg);
     transform: rotate(45deg);
-    position:fixed;
-    top:10%;
-    right:260px; 
+    position:relative;
+    bottom:36%;
+    margin-left: 255px; 
     border-radius: 20px;
-    box-shadow: 0px 1px 10px 4px;
+    box-shadow:  5px 5px 10px 1px
 }
-.image2{
-    width: 200px;
-    height: 200px;
+
+.image3{
+    width: 170px;
+    height: 170px;
     background-image:url(/photos/girl1.jpg);
     background-repeat: no-repeat;
     transform: rotate(45deg);
-    position:fixed;
-    top:25%;
-    right:400px; 
+    position:relative;
+    bottom:44%;
+   margin-left: 110px;
     border-radius: 20px;
-    box-shadow: 0px 1px 10px 4px;
+    box-shadow: 5px 5px 10px 1px;
+    z-index:1;
 }
-.image3{
-    width: 230px;
-    height: 230px;
+
+.image4{
+    width: 200px;
+    height: 200px;
     background-image:url(/photos/images.jpg);
     transform: rotate(45deg);
-    position:fixed;
-    top:50%;
-    right:230px; ;
+    position:relative;
+    bottom:50%;
+    margin-left: 228px;
     border-radius: 20px;
-    box-shadow: 0px 1px 10px 4px;
+    box-shadow:  5px 5px 10px 1px;
+    z-index:1;
 }
-.pipe2{
-    width: 50px;
-    height: 90px;
-    background-image:linear-gradient(45deg,rgb(126, 243, 126), rgb(2, 98, 2), rgb(92, 245, 92));
-   border-bottom-left-radius: 20px;
-   border-bottom-right-radius: 20px;
-    transform: rotate(46deg);
-    position: relative;
-    bottom:21%;
-    margin-left: 224px ;
-    box-shadow: 0px 1px 10px 4px;
 
-}
 .pipe1{
     width: 50px;
     height: 435px;
-    background-image:linear-gradient(45deg, rgb(126, 243, 126), rgb(2, 98, 2), rgb(92, 245, 92));
-    border-bottom-left-radius: 20px;
-   border-bottom-right-radius: 20px;
-    transform: rotate(50deg);
-    /* margin: 240px 0px 0px 160px; */
+    background-image:linear-gradient(65deg, rgb(193, 250, 119), rgb(2, 136, 2), rgb(92, 245, 92));
+    border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+    transform: rotate(45deg);
     position: relative;
-    top: 43%;
-    margin-left: 155px;
-    box-shadow: 0px 1px 10px 4px;
+    bottom: 95%;
+    margin-left: 65px;
+    box-shadow: 0px 0px 10px 0px;
 }
 
+.pipe2{
+    width: 50px;
+    height: 90px;
+    background-image:linear-gradient(45deg,rgb(102, 243, 83), rgb(2, 98, 2), rgb(235, 245, 92));
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+    transform: rotate(45deg);
+    position: relative;
+    bottom:155%;
+    margin-left: 80px ;
+    box-shadow: 0px 0px 10px 0px;
+
+}
 .pipe3{
     width: 50px;
     height: 90px;
-    background-image:linear-gradient(65deg, rgb(126, 243, 126), rgb(2, 136, 2), rgb(92, 245, 92));
-   border-bottom-left-radius: 20px;
-   border-bottom-right-radius: 20px;
+    background-image:linear-gradient(65deg, rgb(193, 250, 119), rgb(2, 136, 2), rgb(92, 245, 92));
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
     transform: rotate(135deg);
     position: relative;
-    bottom:66%;
-    margin-left: 284px ;
-    box-shadow: 0px 1px 10px 4px;
+    bottom:185%;
+    margin-left: 125px ;
+    box-shadow: 0px 0px 10px 0px;
 }
-
 .pipe4{
     width: 50px;
     height: 90px;
-    background-image:linear-gradient(45deg, rgb(126, 243, 126), rgb(2, 98, 2), rgb(92, 245, 92));
-   border-bottom-left-radius: 20px;
-   border-bottom-right-radius: 20px;
+    background-image:linear-gradient(45deg, rgb(192, 243, 126), rgb(2, 98, 2), rgb(92, 245, 92));
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
     transform: rotate(45deg);
     position: relative;
-    bottom:12%;
-    margin-left: 418px ;
-    box-shadow: 0px 1px 10px 4px;
+    bottom:149%;
+    margin-left: 257px ;
+    box-shadow: 0px 0px 10px 0px;
 }
-
 .pipe5{
     width: 50px;
-    height: 150px;
+    height: 190px;
     background-image:linear-gradient(45deg, rgb(126, 243, 126), rgb(2, 98, 2), rgb(92, 245, 92));
-   border-top-left-radius: 20px;
-   border-top-right-radius: 20px;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
     transform: rotate(135deg);
     position: relative;
-    bottom:35%;
-    margin-left: 683px ;
-    box-shadow: 0px 1px 10px 4px;
+    bottom:169%;
+    margin-left: 450px ;
+    box-shadow: 0px 0px 10px 0px;
+}
+/* .naturelogo{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top:5%;
+    left: 5%;
+    background-color: rgb(6, 43, 30);
+} */
+
+.logo2{
+    width: 100px;
+    height: 100px;
+    background-color: aqua; 
+    position: absolute;
+    top:0%;
+    left:0%;
+}
+.logo1{
+    width: 120px;
+    height: 100px;
+    background-color: aqua; 
+    position: absolute;
+    bottom:2%;
+right:7%;
+    
+}
+.year{
+width: 80px;
+height: 40px;
+position: absolute;
+bottom:10%;
+left:4%;
+background-image:linear-gradient(45deg, rgb(26, 250, 26), rgb(250, 250, 51));
+transform: rotate(314deg);
+border-radius: 10px;
+padding: 2px;
+font-size: 30px;
+border: solid green;
+}
+.para{
+    position: absolute;
+    bottom:3%;
+    left:1%;
+    font-size: 15px;
+    font-family: 'Satisfy', cursive;
+    color: rgb(4, 79, 82);
+}
+
+
+.fa-guitar{
+    color: rgb(4, 79, 82);
+    font-size: 20px;
+    padding:3px ;
 }

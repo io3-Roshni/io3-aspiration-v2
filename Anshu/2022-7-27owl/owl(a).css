@@ -24,8 +24,8 @@ top:10%;
 border-radius:50%;
 }
 
-.whiteboll1, .whiteboll2{
-    width:45%;
+.whiteball1, .whiteball2{
+    width:40%;
     height:100px;
     background-color:white;
     margin:auto;
@@ -34,30 +34,107 @@ top:20%;
 border-radius:50%;
 }
 
-.whiteboll1{
-left: 8%;
+.whiteball1{
+left: 11%;
 }
-.whiteboll2{
-    right:8%;
+
+.whiteball2{
+    right:11%;
 }
-.blackboll1, .blackboll2{
+.blackball1, .blackball2{
     width:45%;
-    height:60px;
+    height:55px;
     background-color:rgb(10, 10, 10);
     margin:auto;
 position:absolute;
 top:20%;
 border-radius:50%;
 }
-.blackboll1{
+.blackball1{
     left:25%;
 }
-.blackboll2{
+.blackball2{
     right:25%;
 }
 
+.white1, .white2{
+    width:40%;
+    height:20px;
+    background-color:white;
+    margin:6px;
+position:absolute;
+top:2%;
+border-radius:50%;
+}
+
+.white1{
+left:30%;
+}
+
+.white2{
+    right:28%;
+}
+
+
+.yellownose{
+    width:20%;
+    height:40px;
+    background-color:rgb(235, 155, 6);
+    margin:auto;
+position:absolute;
+top:50%;
+left: 40%;
+z-index: 1;
+transform: rotate(130deg);
+border-bottom-left-radius: 40%;
+border-bottom-right-radius: 40%;
+border-top-left-radius: 40%;
+
+
+}
+
+.rightear{
+    width:30%;
+    height:70px;
+    background-color:cornflowerblue;
+position:absolute;
+top:-4%;
+left: 0%;
+transform: rotate(205deg);
+
+border-top-right-radius: 95%;
+border-top-left-radius: -11%;
+
+
+}
+.leftear{
+    width: 30%;
+    height: 70px;
+    background-color: cornflowerblue;
+    position: absolute;
+    top: -6%;
+    right: 0%;
+    transform: rotate(416deg);
+    border-top-right-radius: 95%;
+border-top-left-radius: -11%;
+}
+
+/* .leftyear{
+    width:10%;
+    height:30px;
+    background-color:rgb(154, 191, 247);
+    margin:right;
+position:absolute;
+top:10%;
+left: 10%;
+transform: rotate(130deg);}
+
+
+
+
+
 .whiteboll1{
-    width:45%;
+    width:10%;
     height:10px;
     background-color:rgb(245, 235, 235);
     margin:auto;
@@ -66,8 +143,8 @@ top:20%;
 border-radius:50%;
 
 }
-.hiteboll1{
-    width:45%;
+.whiteboll1{
+    width:10%;
     height:10px;
     background-color:rgb(245, 235, 235);
     margin:auto;
@@ -75,7 +152,7 @@ position:absolute;
 top:20%;
 border-radius:50%;
 
-}
+} */
 
 
 .whiteboll1{
@@ -83,10 +160,11 @@ border-radius:50%;
 }
 .whiteboll2{
     right:25%;
+   
 }
 
 
-/* .rightyear{
+/*.rightyear{
     width:5%;
     height:50px;
     background-color:cornflowerblue;

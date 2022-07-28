@@ -128,3 +128,13 @@ tr th {
     height: 80px;
 
 }
+.round{
+    border-radius: 50%;
+}
+.round1{
+    border-radius: 50%;
+    position: relative;
+    left: 5%;
+    top: -10%;
+    border:  2px solid white;
+}

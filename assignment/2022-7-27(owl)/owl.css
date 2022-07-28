@@ -40,13 +40,13 @@ z-index:1;
     
 }
 .whiteeye1, .whiteeye2{
-    width: 70%;
-height:120px ;
+    width: 40%;
+height:104px ;
 background-color: white;
-position: absolute;
-border-radius: 50%;
-margin-top: 8%;
 
+border-radius: 50%;
+margin-top: 22%;
+z-index: 1;
 
 }
 
@@ -60,38 +60,43 @@ margin-top: 8%;
 .whiteeye2{
     top:5%;
     right:15%;
+    position: absolute;
 }
 .blackeye1, .blackeye2{
-    width: 60%;
+   
 height:70px ;
 background-color: black;
-position: absolute;
+
 border-radius: 50%;
 margin-top: 8%;
 
 
 }
 .blackeye1{
-    top:13%;
-    left:17%;
+    top:40%;
+    left:22%;
     position: absolute;
-    
+    z-index: 2;
+    width: 22%;
 }
 
 .blackeye2{
-    top:13%;
+    top:9%;
     right:17%;
+    position: absolute;
+    width: 52%;
 }
 
 
 .nose{
     width: 20%;
-    height:30px ;
+    height:45px ;
     background-color: white;
     position: absolute;
     margin-top: 8%;
-    top:20%;
-    right:20%;
+    top:70%;
+    right:40%;
+    transform: rotate(45deg);
     z-index: 1;
 }
 .body{
@@ -102,7 +107,13 @@ margin-top: 8%;
     top:40%;
     left:12%;
     border-radius: 50%;
-    
-
-
+}
+.pipe{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(223, 184, 184);
+    position: absolute;
+    top:60%;
+    right:1%;
+    border-radius: 20px;
 }

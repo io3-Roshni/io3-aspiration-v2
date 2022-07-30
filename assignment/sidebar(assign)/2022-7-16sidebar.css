@@ -11,8 +11,8 @@
     background-color:white;
     border-right:1px solid gray;
     text-align: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 85%;
 }
 
 .items {
@@ -80,4 +80,7 @@ a{
 p{
     
     font-weight: bold;
+}
+.fa-angle-left{
+    color: gray;
 }

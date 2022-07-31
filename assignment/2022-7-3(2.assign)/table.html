@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial=scale-1.0">
     <title>Table</title>
   </head>
   <style>
@@ -12,6 +14,17 @@
         border-collapse: collapse;
         text-align: center;
       } 
+      .main-div{
+        margin: 5% auto;
+        width: 50%;
+      }
+      .thanks{
+        width: 100%;
+        height: 50px;
+        margin-top: 40px;
+        font-size: 20px;
+     
+      }
       
   </style>
   <body>
@@ -31,10 +44,11 @@
         <td colspan="5">company address:ABCblog,def street,XYZ</td>
         </tr>
           <tr><td colspan="7">company registration ID:AAA-1111-123</td></tr>
-          <tr><td colspan="7">3</td></tr>
+       
           <tr><td colspan="2">4</td>
           <td>Invoice</td>
            <th colspan="4"></th></th></tr>
+           <tr><td colspan="7">3</td></tr>
                <tr><td>Date:</td>
                <td>08-07-2022</td>
               <td rowspan="5"></td>
@@ -105,10 +119,10 @@
           <tr><td colspan="4">8</td> <td></td>
             <td></td>
           <td></td></tr>
-          <tr><td colspan="4">9</td> <td></td>
+          <tr><td colspan="4"><b>9</b></td> <td></td>
             <td></td>
           <td></td></tr>
-          <tr><td colspan="4" rowspan="4">9</td> 
+          <tr><td colspan="4" rowspan="4"></td> 
           </tr>
           <tr><th colspan="2">Subtotal</th> 
           <td>$856.50</td>  
@@ -125,9 +139,10 @@
             <td colspan="4"> <h6>eight hundred fifty seven
                dollars and fifty cents</h6></td>
           </tr>
-          <tr><td colspan="7">0</td></tr>
-          <tr class="last"><th colspan="7" rowspan="4" >Thank you for your
-             business</th></tr>
+          <tr><td colspan="7"><b>0</b></td></tr>
+          
+          <tr class="last"><th colspan="7" rowspan="4" ><div class="thanks">Thank you for your
+             business</div></th></tr>
       </tbody>
     </table>
   </div>

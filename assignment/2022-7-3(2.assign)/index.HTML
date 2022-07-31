@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -8,14 +8,22 @@
 body {
      margin:20px;
  }
-
+.main{
+    width: 50%;
+    height: 1000px;
+    margin: auto;
+    padding: 5%;
+    background-color: rgb(157, 240, 233);
+}
 </style>
-<body><h1>EMPLOYEE REGISTRATION FORM</H1>
+<body>
+    <div class="main">
+    <h1>EMPLOYEE REGISTRATION FORM</H1>
 <hr/>
-<p>use this form to register in the GHRIS system.
+<p><b>use this form to register in the GHRIS system.
  The information will be validated aganist your record in the
  Ministry/Department .<br/> In case of disparities, contact the
- HRM Unit in your Ministry/Department
+ HRM Unit in your Ministry/Department</b>
 <br/>
 <br/>
 <div class="div">
@@ -48,9 +56,16 @@ body {
 <input type="number" placeholder=""/>
 <p>e.g. 20-03-1980</p>
 <label>Gender</label>
-<input type="checkbox" value="Male">
-<input type="checkbox" value="Female">
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Female">Female
 <br/><br/> 
+<label>Hobbies</label>
+<input type="checkbox">listening music
+<input type="checkbox">watching TV
+<input type="checkbox">play games
+<input type="checkbox">travelling
+<br>
+<br>
 <label>Date of First Appointment</label>
 <input type="date" placeholder=""/>
 <br/>
@@ -75,8 +90,10 @@ body {
 <label>Confirm your Password</label>
 <input type="number" placeholder=""/>
 <br/><br/>
+<input type="checkbox">I agree all Terms and Condition<br><br>
 <input type="button" value="submit"/>
 <input type="button" value="cancel"/>
+</div>
 </div>
 </body>
 </html>

@@ -4,24 +4,31 @@
     box-sizing:border-box;
 }
 
+.first1{
+    width: 200px;
+    height: 40px;
+    padding-right: 100%;
+    padding-top: 7%;
+}
 tr,
 th{
     width: 50px;
 }
 table {
-    background-color: rgb(114, 179, 157);
+    background-color:white;
 }
 .main { 
-          
+         
     text-align: center;
     border-collapse:collapse;
-    margin:30px;
-    padding:0;
+    margin:1% auto;
+    padding:20%;
 }
 .first {
     background-color:gray; 
     
   }
+
   th.th1{
     background-color:rgb(189, 225, 189)
   }
@@ -37,9 +44,15 @@ background-color: rgb(229, 219, 219);
 }
 th.space {
 height: 5px;
-width: 50px;
+width: 1px;
 
 }
 body{
 display:inline;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
 }

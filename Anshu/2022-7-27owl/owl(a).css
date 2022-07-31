@@ -9,7 +9,7 @@
 .main{
     width:30%;
     height:600px;
-    background-color: bisque;
+    background-color:aquamarine ;
     margin:auto;
 }
 
@@ -155,16 +155,16 @@ border-top-left-radius: -11%;
         border-bottom-left-radius: 10%;
     }
     
-    .leftfoot1{
+    .leftlegs{
         width: 20%;
         height: 80px;
         background-color:rgb(235, 155, 6);
         margin: right;
         border-radius:0;
-        border-bottom-left-radius: 30px; border-bottom-left-radius: 30px; border-bottom-left-radius: 30px; border-bottom-left-radius: 30px; border-bottom-left-radius: 30px;
+        border-bottom-left-radius: 30px; 
     }
 
-    .rightfoot2{
+    .rightlegs{
         width: 20%;
         height: 80px;
         background-color:rgb(235, 155, 6);
@@ -192,7 +192,7 @@ transform: rotate(130deg);}
 
 
 
-.whiteboll1{
+.toge{
     width:10%;
     height:10px;
     background-color:rgb(245, 235, 235);

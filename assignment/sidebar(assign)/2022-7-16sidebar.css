@@ -14,7 +14,9 @@
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-size: 85%;
 }
-
+.Prime{
+    padding-top: 5px;
+}
 .items {
     display:flex;
     flex-wrap: wrap;

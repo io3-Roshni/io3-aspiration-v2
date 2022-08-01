@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 #main{
+    width: 100%;
+    height: 700px;
     display: flex;
     justify-content: center;
+    background-image: linear-gradient(#ee6e6e, #544ff8, #f8f8, #54cd9f);
 }
 #child{
     display: flex;
@@ -23,6 +26,7 @@
     border-bottom-left-radius: 70px;
     box-shadow: 5px 10px 10px 0px;
 }
+
 #img1{
    
     border-bottom-left-radius: 70px;

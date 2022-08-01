@@ -22,37 +22,38 @@ body{
     height: 500;
     border-radius: 30px;
     border: 2px solid black;
-   
+    
 }
 
-.fa-circle{
+/* .fa-circle{
     font-size: 5px;
-}
-.cir1{
-    color:red;
-   padding: 0px 0px 0px 0px;
-    font-size: 10px;
-}
-.cir2{
-   color: yellow; 
-   font-size: 10px;
-   padding: 0px 0px 0px -5px;
-}
-.cir3{
-    color:green;
-    font-size: 10px;
-    padding: 0px 0px 0px 0px;
-}
-.fa-brands, .fa-solid, .fa-regular{
+} */
+.fa-brands, .fa-regular{
     margin: 10px 0px 0px 20px;
     font-size: 10px;
     transition-duration: 0.5s;
 }
-
+.red{
+    color:red;
+  
+}
+.yellow{
+    color: yellow; 
+    
+}
+.green{
+    color:green;
+    
+}
+.dot{
+    font-size: 20px;
+    padding: 10px;
+}
 
 .fa-buffer,.fa-bell, .fa-sliders, .fa-comment{
     font-size: 15px;
 }
+
 .fa-buffer:hover{
     color: cornflowerblue;
     cursor:pointer;
@@ -82,7 +83,7 @@ body{
   
 }
 .fa-searchengin:hover{
-    color: rgb(4, 120, 15);
+    color: rgb(10, 10, 10);
     transform: rotate(20deg);
     transition-duration: 0.5s;
 }
@@ -91,6 +92,7 @@ body{
     transform: rotate(20deg);
     transition-duration: 0.5s;
     font-size: 20px;
+    
 }
 .fa-envelope:hover{
     color: cornflowerblue;
@@ -284,7 +286,7 @@ span{
 }
 
 .fa-circle-chevron-right:hover{
-    color: rgb(4, 168, 67);
+    color: rgba(36, 170, 3, 0.945);
     font-size: 15px;
     transition-duration: 0.5s;
     cursor: pointer;
@@ -303,11 +305,8 @@ span{
     background-color:white;
     border: 2px solid black;
 }
-.dot{
-    font-size: 5px;
-}
 .baby{
-    margin: 120px 0px 0px 10px;
+    margin: 150px 0px 0px 10px;
 }
 
 /* p:hover{

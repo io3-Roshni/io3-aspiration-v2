@@ -57,3 +57,13 @@
     background-image: radial-gradient(red, rgb(78, 245, 78), purple);
     border-radius: 50%;
 }
+.pokemon{
+    width: 60px;
+    height: 60px;
+    padding: 1px 4px 0px 0px ;
+}
+img{
+    width: 80px;
+    height: 80px;
+    padding: 1px 15px 0px 0px;
+}

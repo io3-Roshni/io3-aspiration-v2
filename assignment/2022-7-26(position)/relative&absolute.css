@@ -18,7 +18,7 @@ z-index:1;
 .white2{
     width: 50%;
     height: 657px;
-    background-color:white;
+    background-color:rgb(204, 236, 252);
     border: 1px solid rgb(231, 229, 229);
     margin: auto;
     position:relative;
@@ -39,7 +39,6 @@ z-index:1;
 .image2{
     width: 140px;
     height: 140px;
-    background-image:url(/photos/girl2.jpg);
     transform: rotate(45deg);
     position:relative;
     bottom:36%;
@@ -51,7 +50,6 @@ z-index:1;
 .image3{
     width: 170px;
     height: 170px;
-    background-image:url(/photos/girl1.jpg);
     background-repeat: no-repeat;
     transform: rotate(45deg);
     position:relative;
@@ -65,7 +63,6 @@ z-index:1;
 .image4{
     width: 200px;
     height: 200px;
-    background-image:url(/photos/images.jpg);
     transform: rotate(45deg);
     position:relative;
     bottom:50%;
@@ -74,7 +71,9 @@ z-index:1;
     box-shadow:  5px 5px 10px 1px;
     z-index:1;
 }
-
+.pic{
+    border-radius: 20px;
+}
 .pipe1{
     width: 50px;
     height: 435px;
@@ -148,15 +147,16 @@ z-index:1;
 
 .logo2{
     width: 100px;
-    height: 100px;
+    height: 70px;
+    border-radius: 50%;
     background-color: aqua; 
     position: absolute;
-    top:0%;
-    left:0%;
+    top:1%;
+    left:1%;
 }
 .logo1{
     width: 120px;
-    height: 100px;
+    height: 40px;
     background-color: aqua; 
     position: absolute;
     bottom:2%;
@@ -180,14 +180,26 @@ border: solid green;
     position: absolute;
     bottom:3%;
     left:1%;
-    font-size: 15px;
+    
+}
+h3{
+font-size: 25px;
+color: rgb(2, 58, 59);
+padding-left: 15%;
+}
+span{
+    color: rgb(2, 73, 155);
     font-family: 'Satisfy', cursive;
-    color: rgb(4, 79, 82);
+    font-size: 15px;
 }
 
-
 .fa-guitar{
-    color: rgb(4, 79, 82);
+    color: rgb(2, 73, 155);
     font-size: 20px;
     padding:3px ;
+    font-family: 'Satisfy', cursive;
+}
+p{
+    padding-left: 15%;
+    color: rgb(5, 163, 236);
 }

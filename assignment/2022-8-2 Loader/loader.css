@@ -5,33 +5,49 @@
 }
 
 .main{
+    width: 500px;
+    height: 400px;
+  margin:10% auto;
+  background-color: rgb(7, 7, 7);
+  justify-content: center;
+  position: relative;
+}
+.loader-1{
+    position: absolute;
+    top:35%;
+    left:25%;
     width: 300px;
-    height: 50px;
+    height: 30px;
     background-color: rgb(219, 248, 244);
     border: 2px solid rgb(4, 104, 95);
-    border-radius: 10px;
-  margin:20% auto;
+    border-radius: 50px;
 }
-
 .loader{
-    width: 5px;
-    height: 46px;
-    background-color: rgb(7, 150, 131);
-    border-radius: 10px;
+    width: 10px;
+    height: 26px;
+    /* background-color: rgb(7, 150, 131); */
+    border-radius: 50px;
     animation: loading;
     animation-duration: 7s;
     animation-iteration-count: 10;
-
+    box-shadow: 0px 0px 50px 5px rgb(146, 248, 99);
+}
+H1{
+position: absolute;
+top:55%;
+left:30%;
+color: rgb(2, 58, 41);
 }
 @keyframes loading{
        from{
-        width: 0px;
-        height: 46px;
+        width: 10px;
+        height: 26px;
        }
        to{
         width: 296px;
-        height: 46px;
-        background-color: rgb(2, 58, 41);
-
+        height: 26px;
+        background-color: rgb(3, 80, 57);
+        box-shadow: 0px 0px 50px 2px rgb(99, 248, 99);
+        border-radius: 50px;
        }
 }

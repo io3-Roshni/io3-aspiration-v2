@@ -1,0 +1,36 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box
+}
+
+.main{
+    width:400px;
+    height:50px;
+    background-color:rgb(31, 197, 87);
+    border:2px solid rgb(121, 247, 236);
+    border-radius:10px;
+    margin:20% auto;
+}  
+.loader{
+    width:5%;
+    height:40px;
+    background-color:rgb(177, 12, 20);
+    border-radius:10px;
+   animation:loading;
+   animation-duration: 8s; 
+   animation-iteration-count:10;
+}
+
+@keyframes loading{
+    from{
+        width:0px;
+        height:45px
+    }
+    to{
+        width:399px;
+        height:45px;
+        background-color: rgb(160, 67, 110);
+    }
+}
+

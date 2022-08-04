@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 .main{
-    width: 100%;
+    width: 99%;
     height: 700px;
 background-image: url(https://pa1.narvii.com/6722/04cfd99030314967c510ddb829e95cd2e09a8295_hq.gif);
 background-repeat: no-repeat;
 background-size: 100% 100%;
+margin:1% auto;
 }
 
 /* .....pluto.... */
@@ -117,7 +118,7 @@ background-size: 100% 100%;
     border-radius: 50%;
     margin:  auto;
     animation: rotation;
-    animation-duration: 200s;
+    animation-duration: 100s;
     animation-iteration-count: infinite;
 }
 @keyframes rotation{
@@ -151,7 +152,7 @@ background-size: 100% 100%;
     border-radius: 50%;
     margin:  auto;
     animation: rotation;
-    animation-duration: 250s;
+    animation-duration: 25s;
     animation-iteration-count: infinite;
 }
 @keyframes rotation{
@@ -168,8 +169,8 @@ background-size: 100% 100%;
     height: 40px;
     border-radius: 50%;
     position: relative;
-    top:10%;
-    left:10%;
+    top:9%;
+    left:9%;
 }
 
 /* ......mars...... */
@@ -213,7 +214,7 @@ background-size: 100% 100%;
     border-radius: 50%;
     margin: 10% auto;
     animation: rotation;
-    animation-duration: 70s;
+    animation-duration: 270s;
     animation-iteration-count: infinite;
 }
 @keyframes rotation{

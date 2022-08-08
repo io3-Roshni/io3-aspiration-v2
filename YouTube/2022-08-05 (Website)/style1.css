@@ -172,6 +172,7 @@
   display: flex;
   justify-content: space-evenly;
   width: 80%;
+  height: 230px;
 }
 .infoxy {
   padding-top: 10%;
@@ -207,4 +208,68 @@
 .time {
   font-size: 10px;
   color: gray;
+}
+
+@media screen and (max-width:1920){
+  .videos {
+    width:800%;
+    margin-left: 18%;
+    margin-top: 0px;
+  }
+  
+  .video {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  .video20 {
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+  }
+}
+
+.bottom {
+  width: 200px;
+  height: 80px;
+}
+.tag {
+  float: left;
+  background-color: aquamarine;
+  border-radius: 50%;
+  width: 40px;
+  padding: 5px;
+  margin: 1px;
+  height: 40px;
+}
+.text {
+  float: right;
+  width: 150px;
+  height: 80px;
+}
+
+.time {
+  font-size: 10px;
+  color: gray;
+}
+
+.side {
+  padding: 25px;
+  position: fixed;
+  top: 8%;
+  border-right: 1px solid rgb(251, 246, 246);
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  width: 200px;
+  height: 100vh;
+}
+
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 230px;
+  margin: 5%;
 }

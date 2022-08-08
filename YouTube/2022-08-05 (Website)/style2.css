@@ -155,33 +155,56 @@
   padding: 0px 0px 0px 30px;
 }
 
-.teasels,
-.bear,
-.book {
-  padding: 1%;
+.fa-thumbs-down,
+.liked{
+  font-size: 20px;
+}
+.fa-thumbs-down{
+  color: rgb(56, 77, 77);
+}
+.liked{
+  color: rgb(7, 139, 226);
 }
 .frame {
+  display: flex;
   padding: 1%;
   width: 300px;
   height: 110px;
 }
+.funn{
+  margin-top: 25px;
+  width: 280px;
+}
 .like {
   color: rgb(0, 174, 255);
-  position: absolute;
-  top: 35px;
-  left: 53%;
-  font-size: 11px;
+  font-size: 8px;
 }
 .subs {
   color: red;
-  position: absolute;
-  top: 40px;
-  left: 72%;
-  font-size: 13px;
+  font-size: 8px;
+}
+.big-subs {
+  color: red;
+ margin-left: 80px;
 }
 .span {
-  position: absolute;
-  top: 50px;
-  left: 53%;
+  font-size: 12px;
+}
+@media screen and (max-width:1920px) {
+  .animationfull {
+    padding: 0px 0px 0px 75px;
+  }
+  
+}
+
+.side {
+  padding: 25px;
+  position: fixed;
+  top: 8%;
+  border-right: 1px solid rgb(251, 246, 246);
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 15px;
+  width: 200px;
+  height: 100vh;
 }

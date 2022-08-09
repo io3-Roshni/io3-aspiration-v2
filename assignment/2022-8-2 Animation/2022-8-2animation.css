@@ -13,12 +13,9 @@ margin:1% auto;
 }
 
 /* .....pluto.... */
-
-.pluto-rotate{
-   
+.pluto-rotate{ 
     position: relative;
     top:5%;
-
     width: 600px;
     height: 600px;
     border: 2px solid white;
@@ -47,9 +44,7 @@ margin:1% auto;
 }
 
 /* .....neptune..... */
-
 .neptune-rotate{
-    
     width: 90%;
     height: 90%;
     border: 2px solid white;
@@ -78,7 +73,6 @@ margin:1% auto;
 }
 
 /* ......uranus..... */
-
 .uranus-rotate{
    
     width: 90%;
@@ -109,9 +103,7 @@ margin:1% auto;
 }
 
 /* ......saturn....... */
-
 .saturn-rotate{
-   
     width: 90%;
     height: 90%;
     border: 2px solid white;
@@ -127,8 +119,7 @@ margin:1% auto;
     }
     100%{
         transform: rotate(360deg);
-    }
-    
+    }  
 }
 .saturn{
     transform: rotate(45deg);
@@ -141,7 +132,6 @@ margin:1% auto;
 }
 
 /* ......jupiter...... */
-
 .jupiter-rotate{
    position: relative;
     bottom:5%;
@@ -162,7 +152,6 @@ margin:1% auto;
     100%{
         transform: rotate(360deg);
     }
-    
 }
 .jupiter{
     width: 40px;
@@ -174,9 +163,7 @@ margin:1% auto;
 }
 
 /* ......mars...... */
-
 .mars-rotate{
-   
     width: 85%;
     height: 85%;
     border: 2px solid white;
@@ -193,7 +180,6 @@ margin:1% auto;
     100%{
         transform: rotate(360deg);
     }
-    
 }
 .mars{
     width: 20px;
@@ -205,7 +191,6 @@ margin:1% auto;
 }
 
 /* ......earth...... */
-
 .earth-rotate{
    
     width: 80%;
@@ -236,7 +221,6 @@ margin:1% auto;
 }
 
 /* ......venus...... */
-
 .venus-rotate{
    position: relative;
    top:10%;
@@ -269,7 +253,6 @@ margin:1% auto;
 }
 
 /* ......mercury...... */
-
 .mercury-rotate{
     position: relative;
     top:10%;
@@ -310,9 +293,7 @@ margin:1% auto;
     left:25%;
 }
 
-
 /* ......moon...... */
-
 .moon-rotate{
     position:absolute;
      top:10%;

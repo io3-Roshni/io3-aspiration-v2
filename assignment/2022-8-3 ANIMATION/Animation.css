@@ -13,13 +13,12 @@
     position: relative;
 }
 
-/* .....whitecar..... */
-
-.whitecar{
-    width: 50px;
-    height: 40px;
+/* .....white-car..... */
+.white-car{
+    width: 40px;
+    height: 30px;
     position: absolute;
-    bottom:18%;
+    bottom:17%;
     left: 0%;
     animation: car-1 30s infinite 2s normal;
 
@@ -52,15 +51,15 @@
     }
 
     60%{
-        bottom:81%;
-        left: 33%;
-    }
-    70%{
         bottom:82%;
         left: 33%;
     }
-    85%{
+    70%{
         bottom:84%;
+        left: 33%;
+    }
+    85%{
+        bottom:85%;
         left: 61%;
         transform: rotate(0deg);
     }
@@ -77,13 +76,12 @@
 
 }
 
-/* ......bluecar..... */
-
-.bluecar{
-    width: 50px;
+/* ......blue-car..... */
+.blue-car{
+    width: 40px;
     height: 30px;
     position: absolute;
-    bottom:19%;
+    bottom:18%;
     right: 2%;
     animation: car-2 15s ease infinite 1s normal;
 }
@@ -169,7 +167,7 @@
     }
 }
 
-.redcar{
+.red-car{
     width: 50px;
     height: 30px;
     position: absolute;

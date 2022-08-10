@@ -151,7 +151,7 @@
   width: 300px;
   height: 100px;
 }
-.animationfull {
+.animation-full {
   padding: 0px 0px 0px 30px;
 }
 
@@ -163,6 +163,7 @@
   color: rgb(56, 77, 77);
 }
 .liked{
+  margin-left: 10%;
   color: rgb(7, 139, 226);
 }
 .frame {
@@ -175,7 +176,11 @@
   margin-top: 25px;
   width: 280px;
 }
+.spas{
+  margin-left: 10%;
+}
 .like {
+
   color: rgb(0, 174, 255);
   font-size: 8px;
 }
@@ -183,15 +188,70 @@
   color: red;
   font-size: 8px;
 }
+.profile{
+  z-index: -1;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profile1{
+  z-index: -1;
+  position: absolute;
+ bottom:-52%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.profile2{
+  z-index: -1;
+  position: absolute;
+ bottom:-65%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.profile3{
+  z-index: -1;
+  position: absolute;
+ bottom:-80%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.profile4{
+  z-index: -1;
+  position: absolute;
+ bottom:-95%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.profile5{
+  z-index: -1;
+  position: absolute;
+ bottom:-113%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.month{
+ margin-left: 12%;
+}
 .big-subs {
-  color: red;
- margin-left: 80px;
+  color: white;
+ margin-left: 110px;
+ border-radius: 10px;
+padding: 1%;
+ background-color: red;
 }
 .span {
   font-size: 12px;
 }
 @media screen and (max-width:1920px) {
-  .animationfull {
+  .animation-full {
     padding: 0px 0px 0px 75px;
   }
   

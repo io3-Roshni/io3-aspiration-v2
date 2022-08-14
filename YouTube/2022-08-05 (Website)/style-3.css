@@ -150,7 +150,7 @@
     position: absolute;
     top:5%;
     right:10%;
-    font-size: 180px;
+    font-size: 100px;
     color:green;
     text-shadow: 1px 15px 20px yellowgreen;
     transform: scaleX(30%);
@@ -160,7 +160,41 @@
     transform: scaleX(90%);
     color:rgb(2, 31, 2)
 }
+.like{
+    position: absolute;
+    top:21%;
+    right:9%;
+    font-size: 37px;
+    color:white;
+    background-color:rgb(9, 183, 252) ;
+    border-radius: 20px;
+    text-shadow: 1px 15px 20px rgb(51, 199, 236);
+    cursor: pointer;
+}
+.liked{
+    position: absolute;
+    top:16%;
+    right:-65%;
+    font-size: 35px;
+    color:  rgb(9, 183, 252);
+    border-radius: 20px;
+    text-shadow: 1px 1px 3px rgb(51, 199, 236);
+   
+}
+.subs{
+    position: absolute;
+    top:30%;
+    right:5%;
+    font-size: 34px;
+    color:white;
+    border-radius: 30px;
+    background-color: red;
+    text-shadow: 1px 15px 20px rgb(238, 81, 81);
+    cursor: pointer;
+}
 
+/* on screen size 50%  */
+@media screen and (max-width:1920px) {
 .like{
     position: absolute;
     top:21%;
@@ -192,4 +226,5 @@
     background-color: red;
     text-shadow: 1px 15px 20px rgb(238, 81, 81);
     cursor: pointer;
+}
 }

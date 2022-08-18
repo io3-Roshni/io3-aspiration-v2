@@ -178,7 +178,7 @@ body {
 .calendar {
   position: absolute;
   top: 15%;
-  left: 55%;
+  left: 50%;
   width: 25%;
   height: 3%;
   cursor: pointer;
@@ -186,7 +186,7 @@ body {
 .keep {
   position: absolute;
   top: 23%;
-  left: 55%;
+  left: 50%;
   width: 25%;
   height: 3%;
   cursor: pointer;
@@ -194,7 +194,7 @@ body {
 .tasks {
   position: absolute;
   top: 31%;
-  left: 55%;
+  left: 50%;
   width: 25%;
   height: 3%;
   cursor: pointer;
@@ -202,7 +202,7 @@ body {
 .contact {
   position: absolute;
   top: 38%;
-  left: 55%;
+  left: 50%;
   width: 25%;
   height: 3%;
   cursor: pointer;
@@ -455,8 +455,8 @@ body {
 }
 .space {
   position: absolute;
-  top: 18%;
-  left: 5%;
+  top: 20%;
+  left: 7%;
   color: rgb(75, 70, 70);
   font-family: Arial, Helvetica, sans-serif;
 }

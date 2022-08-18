@@ -1,0 +1,1132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(245, 249, 253);
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* start => left-sidebar */
+.sidebar-left {
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+}
+.gmail {
+  position: relative;
+  width: 100%;
+  height: 13%;
+  padding: 1%;
+  cursor: pointer;
+}
+.fa-bars {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  font-size: 22px;
+  color: rgb(112, 110, 110);
+  text-shadow: 0px 0px 6px rgb(165, 198, 229);
+}
+.img-gmail {
+  position: absolute;
+  top: 10%;
+  right: 25%;
+  width: 40%;
+}
+.compose {
+  width: 50%;
+  height: 8%;
+  margin-left: 6%;
+  font-size: large;
+  padding: 1%;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: rgb(188, 218, 249);
+  cursor: pointer;
+}
+
+.index {
+  margin-top: 5%;
+  width: 90%;
+  height: 5%;
+  font-size: 18px;
+  padding: 2%;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: rgb(213, 229, 247);
+}
+.fa-pencil,
+.fa-vault,
+.fa-star,
+.fa-paper-plane,
+.fa-file,
+.fa-clock-rotate-left,
+.fa-angle-down {
+  font-size: 14px;
+  padding: 2%;
+  cursor: pointer;
+}
+
+.starred {
+  width: 90%;
+  height: 5%;
+  font-size: 16px;
+  padding: 2%;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.snoozed {
+  width: 90%;
+  height: 5%;
+  font-size: 16px;
+  padding: 2%;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.send {
+  width: 90%;
+  height: 5%;
+  font-size: 16px;
+  padding: 2%;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.drafts {
+  width: 90%;
+  height: 5%;
+  font-size: 16px;
+  padding: 2%;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.more {
+  width: 90%;
+  height: 5%;
+  font-size: 16px;
+  padding: 2%;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 10%;
+  padding: 1%;
+  margin: 3%;
+}
+.labels {
+  padding-top: 4%;
+}
+.plus {
+  width: 16%;
+  height: 65%;
+  justify-content: center;
+  padding: 4% 0 0 5%;
+}
+.fa-plus {
+  font-size: large;
+}
+/* end => left-sidebar */
+
+/* hover ->left-sidebar  start */
+.compose:hover {
+  box-shadow: 0px 0px 8px rgb(149, 152, 154);
+}
+.index:hover,
+.starred:hover,
+.snoozed:hover,
+.send:hover,
+.drafts:hover,
+.more:hover {
+  background-color: rgb(237, 240, 243);
+  cursor: pointer;
+}
+.plus:hover {
+  background-color: rgb(232, 228, 228);
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* hover ->left-sidebar  end */
+
+/* start => right-sidebar */
+.sidebar-right {
+  width: 5%;
+  height: 100vh;
+  position: fixed;
+  right: 0%;
+  top: 0%;
+}
+.me {
+  position: absolute;
+  top: 3%;
+  left: 40%;
+  width: 50%;
+  height: 5%;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.calendar {
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  width: 25%;
+  height: 3%;
+  cursor: pointer;
+}
+.keep {
+  position: absolute;
+  top: 23%;
+  left: 45%;
+  width: 25%;
+  height: 3%;
+  cursor: pointer;
+}
+.tasks {
+  position: absolute;
+  top: 31%;
+  left: 45%;
+  width: 25%;
+  height: 3%;
+  cursor: pointer;
+}
+.contact {
+  position: absolute;
+  top: 38%;
+  left: 45%;
+  width: 25%;
+  height: 3%;
+  cursor: pointer;
+}
+.plus-2 {
+  position: absolute;
+  bottom: 45%;
+  left: 30%;
+  width: 50%;
+  height: 6%;
+  padding-top: 17%;
+  padding-left: 15%;
+}
+.arrow {
+  position: absolute;
+  bottom: 5%;
+  left: 30%;
+  width: 50%;
+  height: 6%;
+  padding-top: 17%;
+  padding-left: 20%;
+}
+/* end => right-sidebar */
+
+/* hover -> right-sidebar start*/
+.plus-2:hover {
+  background-color: rgb(244, 239, 239);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.arrow:hover {
+  background-color: rgb(241, 233, 233);
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* hover -> right-sidebar end*/
+
+/* start => navbar-1 */
+.navbar-1 {
+  position: fixed;
+  top: 0%;
+  left: 20%;
+  width: 76%;
+  height: 8vh;
+  background-color: rgb(214, 233, 251);
+  z-index: 1;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  height: 80%;
+  margin: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: rgb(196, 217, 243);
+}
+.search {
+  width: 30%;
+  font-size: large;
+  padding-top: 2%;
+  padding-left: 2%;
+  cursor: pointer;
+  color: rgb(77, 79, 81);
+}
+.adjust {
+  width: 10%;
+  padding-top: 2%;
+  padding-left: 4%;
+  font-size: large;
+  color: rgb(79, 80, 83);
+  cursor: pointer;
+}
+.nav-2 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
+  height: 80%;
+  margin: 5px;
+}
+.que,
+.setting,
+.more-app {
+  padding: 9%;
+  color: rgb(96, 97, 99);
+  font-size: 20px;
+  cursor: pointer;
+}
+/*end => navbar-1 */
+
+/* start => navbar-2 */
+.navbar-2 {
+  position: fixed;
+  top: 8%;
+  left: 20%;
+  width: 76%;
+  height: 7.1vh;
+  background-color: rgb(204, 226, 247);
+  z-index: 1;
+}
+.nav-2-1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 12%;
+  height: 80%;
+  margin: 5px;
+}
+.select,
+.right-arrow,
+.dot {
+  padding: 8%;
+  color: rgb(57, 58, 59);
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav-2-2 {
+  position: absolute;
+  top: 0%;
+  right: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
+  height: 80%;
+  margin: 5px;
+}
+.date,
+.arrow1,
+.arrow2 {
+  padding: 9%;
+  color: rgb(57, 58, 59);
+  font-size: 15px;
+  cursor: pointer;
+}
+/* end => navbar-2 */
+
+/* start => navbar-3 */
+.navbar-3 {
+  position: relative;
+  top: 15%;
+  left: 20%;
+  width: 75%;
+  height: 7vh;
+  background-color: rgb(185, 216, 245);
+}
+.primary {
+  position: absolute;
+  top: 0%;
+  left: 3%;
+  width: 15%;
+  height: 7vh;
+  font-size: 20px;
+  padding: 1%;
+}
+.social {
+  position: absolute;
+  top: 0%;
+  left: 24%;
+  width: 15%;
+  height: 7vh;
+  font-size: 20px;
+  padding: 1%;
+}
+.promotion {
+  position: absolute;
+  top: 0%;
+  left: 45%;
+  width: 15%;
+  height: 7vh;
+  font-size: 20px;
+  padding: 1%;
+}
+/* end => navbar-2 */
+
+/* start hover navbar-2*/
+.primary:hover,
+.social:hover,
+.promotion:hover {
+  border-bottom: 5px solid rgb(88, 153, 244);
+  color: rgb(25, 158, 247);
+  cursor: pointer;
+}
+/* end hover navbar-2 */
+
+/* start here first email design */
+/* start => mail-1 */
+.mail-1 {
+  position: relative;
+  top: 15%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(197, 222, 243);
+  border: 1px solid rgb(158, 155, 155);
+}
+.mail-box {
+  width: 2%;
+  color: rgb(172, 174, 177);
+}
+.mail-star {
+  width: 15%;
+  color: rgb(172, 174, 177);
+}
+
+.time {
+  position: absolute;
+  top: 25%;
+  right: 1%;
+  width: 5%;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* end => mail-1 */
+
+/* start => hidden box 1 */
+.mail-d1 {
+  position: relative;
+  top: 9%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(195, 211, 225);
+  opacity: 0;
+}
+.time-d {
+  position: absolute;
+  top: 28%;
+  right: 1%;
+  width: 5%;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mail-box-d {
+  width: 2%;
+  color: rgb(110, 112, 115);
+}
+.mail-star-d {
+  width: 15%;
+  color: rgb(110, 112, 115);
+}
+.space {
+  position: absolute;
+  top: 18%;
+  left: 5%;
+  color: rgb(75, 70, 70);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.para {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hide {
+  display: flex;
+  width: 12%;
+  height: 60%;
+  position: absolute;
+  top: 20%;
+  right: 6%;
+  cursor: pointer;
+}
+.down,
+.del,
+.mess,
+.clock {
+  padding: 3%;
+  width: 14%;
+  width: 25%;
+  font-size: large;
+}
+/* end hidden box 1 */
+/* end here first email design */
+
+/* start here second email design */
+/* start => mail-2 */
+.mail-2 {
+  position: relative;
+  top: 9%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(230, 241, 250);
+  border: 1px solid rgb(195, 192, 192);
+}
+/* start => hidden box 2 */
+.mail-d2 {
+  position: relative;
+  top: 3.2%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+
+/* start => mail-3 */
+.mail-3 {
+  position: relative;
+  top: 3%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(217, 233, 246);
+  border: 1px solid rgb(179, 176, 176);
+}
+/* start => hidden box 3 */
+.mail-d3 {
+  position: relative;
+  top: -2.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+
+/* start => mail-4 */
+.mail-4 {
+  position: relative;
+  top: -3%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(212, 229, 243);
+  border: 1px solid rgb(188, 187, 187);
+}
+/* start => hidden box 4 */
+.mail-d4 {
+  position: relative;
+  top: -8.9%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+
+/* start => mail-5 */
+.mail-5 {
+  position: relative;
+  top: -9%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(224, 236, 245);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 5 */
+.mail-d5 {
+  position: relative;
+  top: -14.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+
+/* start => mail-6 */
+.mail-6 {
+  position: relative;
+  top: -15%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(222, 234, 245);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 6 */
+.mail-d6 {
+  position: relative;
+  top: -20.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+
+/* start => mail-7 */
+.mail-7 {
+  position: relative;
+  top: -21%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(213, 227, 237);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 7 */
+.mail-d7 {
+  position: relative;
+  top: -26.9%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+
+/* start => mail-8 */
+.mail-8 {
+  position: relative;
+  top: -27%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(233, 242, 249);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 8 */
+.mail-d8 {
+  position: relative;
+  top: -32.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+
+/* start => mail-9 */
+.mail-9 {
+  position: relative;
+  top: -33%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(214, 230, 244);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 9 */
+.mail-d9 {
+  position: relative;
+  top: -38.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+
+/* start => mail-10 */
+.mail-10 {
+  position: relative;
+  top: -39%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(216, 232, 245);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 10 */
+.mail-d10 {
+  position: relative;
+  top: -44.9%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+
+/* start => mail-11 */
+.mail-11 {
+  position: relative;
+  top: -45%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(238, 245, 250);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 11 */
+.mail-d11 {
+  position: relative;
+  top: -50.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+
+/* start => mail-12 */
+.mail-12 {
+  position: relative;
+  top: -51%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(224, 237, 248);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 12 */
+.mail-d12 {
+  position: relative;
+  top: -56.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+
+/* start => mail-13 */
+.mail-13 {
+  position: relative;
+  top: -57%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(211, 227, 240);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 13 */
+.mail-d13 {
+  position: relative;
+  top: -62.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+
+/* start => mail-14 */
+.mail-14 {
+  position: relative;
+  top: -63%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(231, 241, 249);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 14 */
+.mail-d14 {
+  position: relative;
+  top: -68.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+
+/* start => mail-15 */
+.mail-15 {
+  position: relative;
+  top: -69%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(211, 227, 238);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 15 */
+.mail-d15 {
+  position: relative;
+  top: -74.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+
+/* start => mail-16 */
+.mail-16 {
+  position: relative;
+  top: -75%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(225, 237, 246);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 16 */
+.mail-d16 {
+  position: relative;
+  top: -80.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+/* start => mail-17 */
+.mail-17 {
+  position: relative;
+  top: -81%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(228, 238, 247);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 17 */
+.mail-d17 {
+  position: relative;
+  top: -86.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+/* start => mail-18 */
+.mail-18 {
+  position: relative;
+  top: -87%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(223, 232, 240);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 18 */
+.mail-d18 {
+  position: relative;
+  top: -92.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+/* start => mail-19 */
+.mail-19 {
+  position: relative;
+  top: -93%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(226, 231, 236);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 19 */
+.mail-d19 {
+  position: relative;
+  top: -98.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+/* start => mail-20 */
+.mail-20 {
+  position: relative;
+  top: -99%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(232, 242, 251);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 20 */
+.mail-d20 {
+  position: relative;
+  top: -104.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+/* start => mail-21 */
+.mail-21 {
+  position: relative;
+  top: -105%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  background-color: rgb(213, 230, 244);
+  border: 1px solid rgb(185, 181, 181);
+}
+/* start => hidden box 21 */
+.mail-d21 {
+  position: relative;
+  top: -110.8%;
+  left: 20%;
+  display: flex;
+  width: 75%;
+  height: 6vh;
+  padding: 9px;
+  opacity: 0;
+}
+/* end here second email design */
+
+/* start hover effect design on email box */
+.mail-d1:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  border: 0.5px solid rgb(149, 179, 227);
+  top: 9.1%;
+}
+.mail-d2:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: 3.1%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d3:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -2.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d4:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -8.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d5:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -14.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d6:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -20.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d7:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -26.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d8:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -32.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+
+.mail-d9:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -38.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d10:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -44.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d11:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -50.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d12:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -56.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d13:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -62.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d14:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -68.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d15:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -74.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d16:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -80.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d17:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -86.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d18:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -92.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d19:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -98.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d20:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -104.9%;
+  border: 1px solid rgb(149, 179, 227);
+}
+.mail-d21:hover {
+  background-color: rgb(206, 231, 252);
+  box-shadow: 0px 0px 7px rgb(218, 212, 212);
+  opacity: 1;
+  cursor: pointer;
+  top: -110.9%;
+  border: 1px solid rgb(149, 179, 227);
+}

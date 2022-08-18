@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+.box {
+  width: 40%;
+  height: 90vh;
+  border: 1px solid rgb(209, 207, 207);
+  position: relative;
+  top: 2%;
+  left: 35%;
+  border-radius: 2%;
+}
+.img-google {
+  width: 45%;
+  height: 45%;
+  position: absolute;
+  top: 13%;
+  right: 0%;
+}
+.google-img {
+  width: 15%;
+  margin: 5% 0% 0% 5%;
+}
+.account {
+  font-size: 17px;
+  margin: 1% 0% 0% 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box2 {
+  display: flex;
+  width: 50%;
+  height: 6%;
+  margin: 2% 0% 0% 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.first-name {
+  width: 50%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0% 0% 0% 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid gray;
+  padding: 3%;
+  border-radius: 5px;
+}
+.last-name {
+  width: 50%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0% 0% 0% 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid gray;
+  padding: 3%;
+  border-radius: 5px;
+}
+.gmail {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  height: 6%;
+  margin: 2% 0% 0% 5%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.user-name {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  padding: 3%;
+  border: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.letters {
+  width: 50%;
+  height: 6%;
+  margin: 1% 0% 0% 5%;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.address {
+  width: 50%;
+  height: 6%;
+  color: rgb(9, 99, 210);
+  margin: 0% 0% 0% 5%;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box3 {
+  display: flex;
+  width: 50%;
+  height: 6%;
+  margin: 2% 0% 0% 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.password {
+  width: 50%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0% 0% 0% 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid gray;
+  padding: 3%;
+  border-radius: 5px;
+}
+.confirm {
+  width: 50%;
+  height: 100%;
+  font-size: 14px;
+  margin: 0% 0% 0% 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid gray;
+  padding: 3%;
+  border-radius: 5px;
+}
+.symbols {
+  width: 50%;
+  height: 6%;
+  margin: 2% 0% 0% 5%;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#gender {
+  width: 50%;
+  height: 6%;
+  font-size: 14px;
+  margin: 5% 0% 0% 5%;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.list-of-mon {
+  width: 50%;
+  height: 6%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2% 0% 0% 5%;
+}
+#months {
+  width: 30%;
+  border-radius: 5px;
+  padding: 2%;
+  font-size: 14px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.day,
+.year {
+  width: 30%;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 3%;
+  font-size: 14px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gmail-box {
+  width: 30%;
+  border-radius: 30px;
+  padding: 2%;
+  font-size: 13px;
+  text-align: center;
+  margin: 1% 0% 0% 5%;
+  border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.label {
+  position: absolute;
+  bottom: 38%;
+  left: 6%;
+}
+
+label {
+  position: absolute;
+  bottom: 37.5%;
+  left: 10%;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.box4 {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  height: 6%;
+  margin: 10% 0% 0% 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign {
+  width: 50%;
+  height: 100%;
+  color: rgb(9, 99, 210);
+  margin: 0% 0% 0% 0%;
+  font-size: 15px;
+  text-decoration: none;
+  text-shadow: 0px 0px 10px rgb(139, 139, 247);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.done {
+  width: 30%;
+  height: 100%;
+  color: white;
+  margin: 0% 0% 0% 0 0%;
+  font-size: 15px;
+  padding: 2% 0% 0% 8%;
+  border: 1px solid blue;
+  background-color: blue;
+  border-radius: 4px;
+  box-shadow: 0px 0px 0px 1px rgb(187, 187, 239);
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.select-list {
+  width: 40%;
+  height: 10vh;
+  border: 1px solid white;
+  position: relative;
+  top: 1%;
+  left: 35%;
+  border-radius: 2%;
+}
+#select {
+  width: 40%;
+  height: 50%;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  padding: 1%;
+  font-size: 13px;
+  border: 1px solid white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.help {
+  width: 20%;
+  height: 50%;
+  position: absolute;
+  top: 10%;
+  left: 60%;
+  padding: 1%;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Privacy {
+  width: 20%;
+  height: 50%;
+  position: absolute;
+  top: 10%;
+  left: 75%;
+  padding: 1%;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.terms {
+  width: 20%;
+  height: 50%;
+  position: absolute;
+  top: 10%;
+  left: 90%;
+  padding: 1%;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* hover-start */
+.last-name:hover,
+.first-name:hover {
+  padding: 0% 0% 0% 3%;
+  color: rgb(9, 99, 210);
+  border: 1px solid blue;
+  cursor: pointer;
+}
+.gmail:hover {
+  border: 1px solid blue;
+}
+.user-name:hover {
+  color: rgb(9, 99, 210);
+  cursor: pointer;
+}
+.password:hover,
+.confirm:hover {
+  padding: 0% 0% 0% 3%;
+  font-size: 10px;
+  color: rgb(9, 99, 210);
+  border: 1px solid blue;
+  cursor: pointer;
+}
+#gender:hover {
+  border: 1px solid rgb(9, 99, 210);
+  color: rgb(9, 99, 210);
+  cursor: pointer;
+}
+#months:hover {
+  border: 1px solid rgb(9, 99, 210);
+  color: rgb(9, 99, 210);
+  cursor: pointer;
+}
+.day:hover {
+  border: 1px solid rgb(9, 99, 210);
+  color: rgb(9, 99, 210);
+  cursor: pointer;
+  font-size: 15px;
+}
+.year:hover {
+  border: 1px solid rgb(9, 99, 210);
+  color: rgb(9, 99, 210);
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.sign:hover {
+  text-shadow: 0px 0px 1px rgb(248, 248, 255);
+  cursor: pointer;
+}
+.next:hover {
+  box-shadow: 0px 0px 0px 0px white;
+  cursor: pointer;
+}

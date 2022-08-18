@@ -172,13 +172,13 @@
 }
 .label {
   position: absolute;
-  bottom: 38%;
+  bottom: 24%;
   left: 6%;
 }
 
 label {
   position: absolute;
-  bottom: 37.5%;
+  bottom: 24%;
   left: 10%;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;

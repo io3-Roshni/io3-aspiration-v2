@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Merriweather', serif
 }
 body {
   background-color: rgb(245, 249, 253);
@@ -29,7 +28,7 @@ body {
 }
 .fa-bars {
   position: absolute;
-  top: 25%;
+  top: 35%;
   left: 25%;
   font-size: 22px;
   color: rgb(112, 110, 110);
@@ -45,7 +44,7 @@ body {
   width: 50%;
   height: 8%;
   margin-left: 6%;
-  font-size: 16px;
+  font-size: large;
   padding: 1%;
   border-radius: 20px;
   border: none;
@@ -178,7 +177,7 @@ body {
 .calendar {
   position: absolute;
   top: 15%;
-  left: 50%;
+  left: 45%;
   width: 25%;
   height: 3%;
   cursor: pointer;
@@ -186,7 +185,7 @@ body {
 .keep {
   position: absolute;
   top: 23%;
-  left: 50%;
+  left: 45%;
   width: 25%;
   height: 3%;
   cursor: pointer;
@@ -194,7 +193,7 @@ body {
 .tasks {
   position: absolute;
   top: 31%;
-  left: 50%;
+  left: 45%;
   width: 25%;
   height: 3%;
   cursor: pointer;
@@ -202,7 +201,7 @@ body {
 .contact {
   position: absolute;
   top: 38%;
-  left: 50%;
+  left: 45%;
   width: 25%;
   height: 3%;
   cursor: pointer;
@@ -244,8 +243,8 @@ body {
 .navbar-1 {
   position: fixed;
   top: 0%;
-  left: 20.5%;
-  width: 76%;
+  left: 20%;
+  width: 75%;
   height: 8vh;
   background-color: rgb(214, 233, 251);
   z-index: 1;
@@ -279,7 +278,7 @@ body {
 .nav-2 {
   position: absolute;
   top: 0%;
-  right: 2%;
+  right: 0%;
   display: flex;
   justify-content: space-evenly;
   width: 10%;
@@ -300,9 +299,9 @@ body {
 .navbar-2 {
   position: fixed;
   top: 8%;
-  left: 20.5%;
-  width: 76%;
-  height: 7.5vh;
+  left: 20%;
+  width: 75%;
+  height: 7.1vh;
   background-color: rgb(204, 226, 247);
   z-index: 1;
 }
@@ -321,13 +320,13 @@ body {
 .dot {
   padding: 8%;
   color: rgb(57, 58, 59);
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
 }
 .nav-2-2 {
   position: absolute;
   top: 0%;
-  right: 5%;
+  right: 1%;
   display: flex;
   justify-content: space-evenly;
   width: 10%;
@@ -375,7 +374,7 @@ body {
   position: absolute;
   top: 0%;
   left: 45%;
-  width: 19%;
+  width: 15%;
   height: 7vh;
   font-size: 20px;
   padding: 1%;
@@ -402,7 +401,6 @@ body {
   width: 75%;
   height: 6vh;
   padding: 9px;
-  font-size: 15px;
   background-color: rgb(197, 222, 243);
   border: 1px solid rgb(158, 155, 155);
 }
@@ -420,7 +418,7 @@ body {
   top: 25%;
   right: 1%;
   width: 5%;
-  font-size: 10px;
+  font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
 }
 /* end => mail-1 */
@@ -455,8 +453,8 @@ body {
 }
 .space {
   position: absolute;
-  top: 20%;
-  left: 7%;
+  top: 18%;
+  left: 5%;
   color: rgb(75, 70, 70);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -477,10 +475,9 @@ body {
 .del,
 .mess,
 .clock {
-  padding: 3%;
-  width: 14%;
-  width: 25%;
-  font-size: large;
+  padding: 1%;
+  width: 18%;
+  font-size: 15px;
 }
 /* end hidden box 1 */
 /* end here first email design */
@@ -1131,4 +1128,277 @@ body {
   cursor: pointer;
   top: -110.9%;
   border: 1px solid rgb(149, 179, 227);
+}
+
+/* ------media screen 1280px to 1920px------- */
+
+/* ------start=>left-sidebar------- */
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+  .fa-bars {
+    position: absolute;
+    top: 25%;
+    left: 24%;
+    font-size: 22px;
+    color: rgb(112, 110, 110);
+    text-shadow: 0px 0px 6px rgb(165 198 229);
+  }
+  /* ------start=>compose------- */
+  .compose {
+    width: 55%;
+    height: 8%;
+    margin-left: 6%;
+    font-size: 14px;
+    padding: 1%;
+  }
+  .sidebar-right {
+    right: 1%;
+    top: 0%;
+  }
+  .navbar-1 {
+    width: 75%;
+  }
+  .search {
+    width: 40%;
+  }
+  .nav-2 {
+    right: 4%;
+  }
+  .navbar-2 {
+    width: 75%;
+  }
+  .nav-2-2 {
+    right: 6%;
+  }
+  .primary,
+  .social,
+  .promotion {
+    font-size: 16px;
+  }
+  .space {
+    font-size: 15px;
+    top: 25%;
+    left: 7%;
+  }
+  .para {
+    font-size: 15px;
+  }
+  .time {
+    right: 2%;
+    width: 7%;
+  }
+}
+
+/* ------media screen 600px to 1279px------- */
+
+/* ------start=>left-sidebar------- */
+
+@media screen and (min-width: 600px) and (max-width: 1279px) {
+  .fa-bars {
+    top: 21%;
+    left: 23%;
+    font-size: 15px;
+  }
+  .compose {
+    width: 60%;
+    height: 5%;
+    font-size: 10px;
+  }
+  .index,
+  .starred,
+  .snoozed,
+  .send,
+  .drafts,
+  .more {
+    font-size: 15px;
+  }
+  .sidebar-right {
+    width: 7%;
+  }
+  .nav {
+    height: 75%;
+  }
+  .search {
+    width: 60%;
+    padding-top: 2%;
+    font-size: 13px;
+  }
+  .adjust {
+    width: 15%;
+    font-size: 14px;
+    padding-top: 2%;
+  }
+  .nav-2 {
+    top: 12%;
+    right: 5%;
+  }
+  .que,
+  .setting,
+  .more-app {
+    font-size: 14px;
+  }
+  .nav-2-1 {
+    height: 50%;
+    top: 8%;
+  }
+  .select,
+  .right-arrow,
+  .dot {
+    font-size: 12px;
+  }
+  .nav-2-2 {
+    top: 8%;
+    right: 9%;
+    height: 50%;
+  }
+  .date,
+  .arrow1,
+  .arrow2 {
+    font-size: 10px;
+  }
+  .primary,
+  .social,
+  .promotion {
+    font-size: 14px;
+    width: 18%;
+    top: 15%;
+  }
+  .mail-box {
+    width: 3%;
+  }
+  .mail-star {
+    width: 18%;
+  }
+  .space {
+    font-size: 10px;
+    top: 35%;
+    left: 9%;
+  }
+  .para {
+    font-size: 8px;
+  }
+  .time {
+    right: 2%;
+    font-size: 6px;
+  }
+  /* ------hover start----- */
+  .mail-box-d {
+    width: 3%;
+  }
+  .mail-star-d {
+    width: 18%;
+  }
+  .down,
+  .del,
+  .mess,
+  .clock {
+    font-size: 9px;
+  }
+  .time-d {
+    right: 2%;
+    font-size: 6px;
+  }
+}
+
+/* ------media screen 100px to 600px------- */
+
+/* ------start=>left-sidebar------- */
+
+@media screen and (min-width: 00px) and (max-width: 600px) {
+  .fa-bars {
+    top: 41%;
+    left: 29%;
+    font-size: 12px;
+  }
+  .img-gmail {
+    top: 20%;
+    right: 47%;
+  }
+  .gmail {
+    width: 85px;
+  }
+  .compose {
+    width: 90%;
+    font-size: 10px;
+  }
+  .index,
+  .starred,
+  .snoozed,
+  .send,
+  .drafts,
+  .more {
+    font-size: 10px;
+  }
+  .sidebar-right {
+    width: 9%;
+  }
+
+  .nav {
+    height: 50%;
+    margin: 6%;
+  }
+  .search {
+    width: 70%;
+    padding-left: 3%;
+    font-size: 7px;
+    padding-top: 4%;
+  }
+  .adjust {
+    width: 15%;
+    font-size: 10px;
+    padding-top: 6%;
+  }
+  .nav-2 {
+    top: 21%;
+    right: 5%;
+    height: 30%;
+  }
+  .que,
+  .setting,
+  .more-app {
+    font-size: 10px;
+  }
+  .nav-2-1 {
+    height: 50%;
+    top: 15%;
+  }
+  .select,
+  .right-arrow,
+  .dot {
+    font-size: 10px;
+  }
+  .nav-2-2 {
+    top: 15%;
+    right: 15%;
+    height: 30%;
+  }
+  .date,
+  .arrow1,
+  .arrow2 {
+    font-size: 10px;
+  }
+  .primary,
+  .social,
+  .promotion {
+    font-size: 11px;
+    width: 22%;
+    top: 15%;
+  }
+  .mail-box {
+    width: 10%;
+  }
+  .mail-star {
+    width: 25%;
+  }
+  .space {
+    font-size: 5px;
+    top: 35%;
+    left: 30%;
+  }
+  .para {
+    font-size: 2px;
+  }
+  .time {
+    right: 2%;
+    font-size: 3px;
+  }
 }

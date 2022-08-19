@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ......nav..... */
+.nav {
+  display: flex;
+  position: fixed;
+  top: 0%;
+  width: 100vw;
+  height: 8%;
+  border: 1px solid rgb(238, 235, 235);
+  background-color: white;
+}
+#youtube {
+  display: flex;
+  justify-content: start;
+  width: 30vw;
+  padding: 2px;
+  height: 40px;
+  padding-top: 5px;
+}
+.search {
+  font-size: 10px;
+  width: 35%;
+  height: 36px;
+  border: 1px solid black;
+  margin: 8px;
+}
+#navbar {
+  float: left;
+  display: inline;
+  width: 40px;
+  height: 40px;
+  padding: 9px;
+  font-size: 15px;
+}
+.search-icon {
+  width: 50px;
+  height: 35px;
+  float: right;
+  padding: 9px;
+  font-size: 15px;
+  border-left: 1px solid black;
+}
+.tell {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 5px;
+  width: 34px;
+  height: 34px;
+  background-color: rgb(193, 188, 188);
+}
+#navbar2 {
+  display: flex;
+  justify-content: end;
+  padding: 13px;
+  font-size: 20px;
+  width: 450px;
+  height: 40px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 20px;
+  width: 34%;
+}
+/*......nav-icon.....*/
+
+.fa-align-justify {
+  font-size: 20px;
+  color: black;
+}
+.side {
+  padding: 25px;
+  position: fixed;
+  top: 8%;
+  border-right: 1px solid rgb(251, 246, 246);
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  width: 250px;
+  height: 100vh;
+}
+.fa-compass,
+.fa-trello,
+.fa-dice-d6,
+.fa-floppy-disk,
+.fa-clock,
+.fa-square-caret-right,
+.fa-fire,
+.fa-thumbs-up,
+.fa-music,
+.fa-award,
+.fa-dragon,
+.fa-photo-film,
+.fa-film,
+.fa-bilibili,
+.fa-podcast,
+.fa-wand-magic-sparkles,
+.fa-book-open-reader {
+  color: gray;
+  font-size: 10px;
+  padding: 8px;
+}
+
+.fa-microphone.fa-magnifying-glass {
+  color: gray;
+  font-size: 12px;
+}
+.fa-arrow-left {
+  cursor: pointer;
+}
+.fa-square-plus,
+.fa-arrow-left .fa-bell {
+  color: gray;
+  font-size: 5p1x;
+  cursor: pointer;
+  padding: 1%;
+}
+.fa-home {
+  color: gray;
+  font-size: 9px;
+  padding: 8px;
+}
+.fa-youtube {
+  color: red;
+  padding-left: 0%;
+}
+
+.videos {
+  width: 81%;
+  margin-left: 20%;
+  margin-top: 0px;
+}
+.videos16 {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  position: absolute;
+  top: 15%;
+  right: 0%;
+}
+.animation {
+  width: 300px;
+  height: 100px;
+}
+.animationfull {
+  width: 500px;
+  height: 500px;
+  padding: 0px 0px 0px 50px;
+}
+
+.teasels,
+.bear,
+.book {
+  padding: 1%;
+}

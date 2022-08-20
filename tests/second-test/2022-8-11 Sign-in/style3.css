@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 body {
   background-color: rgb(245, 249, 253);
 }
@@ -381,7 +385,7 @@ body {
 }
 /* end => navbar-2 */
 
-/* start hover navbar-2*/
+/* start hover navbar-3*/
 .primary:hover,
 .social:hover,
 .promotion:hover {
@@ -389,7 +393,7 @@ body {
   color: rgb(25, 158, 247);
   cursor: pointer;
 }
-/* end hover navbar-2 */
+/* end hover navbar-3 */
 
 /* start here first email design */
 /* start => mail-1 */

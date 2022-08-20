@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+  />
+    <title>GitHub</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .main{
+      width: 100vw;
+      height: 100vh;
+    }
+/* start => left-sidebar */
+.sidebar-left {
+  width: 20%;
+  height: 100vh;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+}
+.gmail {
+  position: relative;
+  width: 100%;
+  height: 13%;
+  padding: 1%;
+  cursor: pointer;
+}
+.fa-bars {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  font-size: 22px;
+  color: rgb(112, 110, 110);
+  text-shadow: 0px 0px 6px rgb(165, 198, 229);
+}
+.img-gmail {
+  position: absolute;
+  top: 10%;
+  right: 25%;
+  width: 40%;
+}
+.compose {
+  width: 50%;
+  height: 8%;
+  margin-left: 6%;
+  font-size: large;
+  padding: 1%;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: rgb(188, 218, 249);
+  cursor: pointer;
+}
+
+.index {
+  margin-top: 5%;
+  width: 90%;
+  height: 5%;
+  font-size: 18px;
+  padding: 2%;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: rgb(213, 229, 247);
+}
+.fa-pencil,
+.fa-vault,
+.fa-star,
+.fa-paper-plane,
+.fa-file,
+.fa-clock-rotate-left,
+.fa-angle-down {
+  font-size: 14px;
+  padding: 2%;
+  cursor: pointer;
+}
+
+.starred {
+  width: 90%;
+  height: 5%;
+  font-size: 16px;
+  padding: 2%;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.snoozed {
+  width: 90%;
+  height: 5%;
+  font-size: 16px;
+  padding: 2%;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.send {
+  width: 90%;
+  height: 5%;
+  font-size: 16px;
+  padding: 2%;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.drafts {
+  width: 90%;
+  height: 5%;
+  font-size: 16px;
+  padding: 2%;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.more {
+  width: 90%;
+  height: 5%;
+  font-size: 16px;
+  padding: 2%;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 10%;
+  padding: 1%;
+  margin: 3%;
+}
+.labels {
+  padding-top: 4%;
+}
+.plus {
+  width: 16%;
+  height: 65%;
+  justify-content: center;
+  padding: 4% 0 0 5%;
+}
+.fa-plus {
+  font-size: large;
+}
+/* end => left-sidebar */
+
+/* hover ->left-sidebar  start */
+.compose:hover {
+  box-shadow: 0px 0px 8px rgb(149, 152, 154);
+}
+.index:hover,
+.starred:hover,
+.snoozed:hover,
+.send:hover,
+.drafts:hover,
+.more:hover {
+  background-color: rgb(237, 240, 243);
+  cursor: pointer;
+}
+.plus:hover {
+  background-color: rgb(232, 228, 228);
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* hover ->left-sidebar  end */
+
+/* start => right-sidebar */
+.sidebar-right {
+  width: 5%;
+  height: 100vh;
+  position: fixed;
+  right: 0%;
+  top: 0%;
+}
+.me {
+  position: absolute;
+  top: 3%;
+  left: 40%;
+  width: 50%;
+  height: 5%;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.calendar {
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  width: 25%;
+  height: 3%;
+  cursor: pointer;
+}
+.keep {
+  position: absolute;
+  top: 23%;
+  left: 45%;
+  width: 25%;
+  height: 3%;
+  cursor: pointer;
+}
+.tasks {
+  position: absolute;
+  top: 31%;
+  left: 45%;
+  width: 25%;
+  height: 3%;
+  cursor: pointer;
+}
+.contact {
+  position: absolute;
+  top: 38%;
+  left: 45%;
+  width: 25%;
+  height: 3%;
+  cursor: pointer;
+}
+.plus-2 {
+  position: absolute;
+  bottom: 45%;
+  left: 30%;
+  width: 50%;
+  height: 6%;
+  padding-top: 17%;
+  padding-left: 15%;
+}
+.arrow {
+  position: absolute;
+  bottom: 5%;
+  left: 30%;
+  width: 50%;
+  height: 6%;
+  padding-top: 17%;
+  padding-left: 20%;
+}
+/* end => right-sidebar */
+
+/* hover -> right-sidebar start*/
+.plus-2:hover {
+  background-color: rgb(244, 239, 239);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.arrow:hover {
+  background-color: rgb(241, 233, 233);
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* hover -> right-sidebar end*/
+
+/* start => navbar-1 */
+.navbar-1 {
+  position: fixed;
+  top: 0%;
+  left: 20%;
+  width: 75%;
+  height: 8vh;
+  background-color: rgb(214, 233, 251);
+  z-index: 1;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  height: 80%;
+  margin: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: rgb(196, 217, 243);
+}
+.search {
+  width: 40%;
+  font-size: 16px;
+  padding-top: 2%;
+  padding-left: 2%;
+  cursor: pointer;
+  color: rgb(77, 79, 81);
+}
+.adjust {
+  width: 10%;
+  padding-top: 3%;
+  padding-left: 3%;
+  font-size: large;
+  color: rgb(79, 80, 83);
+  cursor: pointer;
+}
+.nav-2 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
+  height: 80%;
+  margin: 5px;
+}
+.que,
+.setting,
+.more-app {
+  padding: 7%;
+  color: rgb(96, 97, 99);
+  font-size: 18px;
+  cursor: pointer;
+}
+/*end => navbar-1 */
+
+/* start => navbar-2 */
+.navbar-2 {
+  position: fixed;
+  top: 8%;
+  left: 20%;
+  width: 75%;
+  height: 7.1vh;
+  background-color: rgb(204, 226, 247);
+  z-index: 1;
+}
+.nav-2-1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 12%;
+  height: 80%;
+  margin: 5px;
+}
+.select,
+.right-arrow,
+.dot {
+  padding: 6%;
+  color: rgb(57, 58, 59);
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav-2-2 {
+  position: absolute;
+  top: 0%;
+  right: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 15%;
+  height: 80%;
+  margin: 5px;
+}
+.date,
+.arrow1,
+.arrow2 {
+  padding: 6%;
+  color: rgb(57, 58, 59);
+  font-size: 15px;
+  cursor: pointer;
+}
+/* end => navbar-2 */
+
+/* start => navbar-3 */
+.navbar-3 {
+  position: fixed;
+  top: 15%;
+  left: 20%;
+  width: 75%;
+  height: 7vh;
+  background-color: rgb(185, 216, 245);
+  z-index: 1;
+}
+.primary {
+  position: absolute;
+  top: 0%;
+  left: 3%;
+  width: 15%;
+  height: 7vh;
+  font-size: 20px;
+  padding: 1%;
+}
+.social {
+  position: absolute;
+  top: 0%;
+  left: 24%;
+  width: 15%;
+  height: 7vh;
+  font-size: 20px;
+  padding: 1%;
+}
+.promotion {
+  position: absolute;
+  top: 0%;
+  left: 45%;
+  width: 18%;
+  height: 7vh;
+  font-size: 20px;
+  padding: 1%;
+}
+/* end => navbar-2 */
+
+/* start hover navbar-3*/
+.primary:hover,
+.social:hover,
+.promotion:hover {
+  border-bottom: 5px solid rgb(88, 153, 244);
+  color: rgb(25, 158, 247) !important;
+  cursor: pointer;
+}
+/* end hover navbar-3 */
+
+/* a tag start */
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(25, 158, 247);
+}
+/* a tag end */
+
+    /*-----start mail file design---- */
+    .main2 {
+      width: 60%;
+      height: 50rem;
+      margin: 10% 0 0 10%;
+      border: 1px solid gray;
+      position: absolute;
+      top:20%;
+      right:10%;
+    }
+    .child1 {
+      width: 100%;
+      height: 20vh;
+      background-color: rgb(218, 100, 247);
+    }
+    h1 {
+      padding: 1% 0 0 1%;
+      margin-left: 3%;
+      color: white;
+      font-family: "Courier New", Courier, monospace;
+    }
+    .child2 {
+      width: 30rem;
+      height: 35rem;
+      display: flex;
+      justify-content: center;
+      margin-top: 5%;
+      margin-left: 10%;
+      border: 1px solid gray;
+      background-color: rgb(227, 197, 252);
+      position: relative;
+    }
+    .image {
+      width: 20rem;
+      height: 20rem;
+      margin-top: 5%;
+      margin-left: 5%;
+      border-radius: 30px;
+    }
+    img {
+      margin-left: 5%;
+      margin-top: 5%;
+     }
+    p {
+      position: absolute;
+      top: 70%;
+      font-weight: 20px;
+      margin: 5%;
+      padding: 2%;
+      color: rgb(253, 251, 253);
+      text-shadow: 0px 1px 5px rgb(7, 7, 7);
+      font-family: "DynaPuff", cursive;
+    }
+  </style>
+  <body>
+    <div class="main">
+ <!-- start => left-sidebar -->
+ <div class="sidebar-left">
+  <div class="gmail">
+    <i class="fa-solid fa-bars"></i>
+   <a href="./third-page.html"> <img
+      src="https://media.dragonblogger.com/wp-content/uploads/2022/07/14225040/Gmail-Emblem.png"
+      class="img-gmail"
+    /></a>
+  </div>
+  <button class="compose">
+    <i class="fa-solid fa-pencil"></i> Compose
+  </button>
+  <div class="index"><i class="fa-solid fa-vault"></i> Index</div>
+  <div class="starred"><i class="fa-regular fa-star"></i> Starred</div>
+  <div class="snoozed">
+    <i class="fa-solid fa-clock-rotate-left"></i> Snoozed
+  </div>
+  <div class="send"><i class="fa-solid fa-paper-plane"></i> Send</div>
+  <div class="drafts"><i class="fa-regular fa-file"></i> Drafts</div>
+  <div class="more"><i class="fa-solid fa-angle-down"></i> More</div>
+  <div class="box">
+    <div class="labels">Labels</div>
+    <div class="plus"><i class="fa-solid fa-plus"></i></div>
+  </div>
+</div>
+<!-- end => left-sidebar -->
+
+<!-- start => right-sidebar -->
+<div class="sidebar-right">
+ <a href="./third-page.html"> <img
+    src="/tests/second-test/2022-8-11 Sign-in/assets/image.jpeg"
+    class="me"
+  /></a>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Calendar_icon_%282020%29.svg/2048px-Google_Calendar_icon_%282020%29.svg.png"
+    class="calendar"
+  /><br />
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Keep_icon_%282015-2020%29.svg/1200px-Google_Keep_icon_%282015-2020%29.svg.png"
+    class="keep"
+  /><br />
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Google_Tasks_2021.svg/1200px-Google_Tasks_2021.svg.png"
+    class="tasks"
+  /><br />
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Google_Contacts_logo.png"
+    class="contact"
+  /><br />
+  <div class="plus-2">
+    <i class="fa-solid fa-plus plus-1"></i>
+  </div>
+  <div class="arrow">
+    <i class="fa-solid fa-angle-right"></i>
+  </div>
+</div>
+<!-- end => right-sidebar -->
+
+<!-- start => navbar-1 -->
+<div class="navbar-1">
+  <div class="nav">
+    <div class="search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      Search in emails
+    </div>
+    <div class="adjust"><i class="fa-solid fa-sliders"></i></div>
+  </div>
+  <div class="nav-2">
+    <div class="que"><i class="fa-regular fa-circle-question"></i></div>
+    <div class="setting"><i class="fa-solid fa-gear"></i></div>
+    <div class="more-app"><i class="fa-solid fa-table-cells"></i></div>
+  </div>
+</div>
+<!-- end => navbar-1 -->
+
+<!-- start => navbar-2 -->
+<div class="navbar-2">
+  <div class="nav-2-1">
+    <div class="select"><i class="fa-regular fa-square"></i></div>
+    <div class="right-arrow">
+     <a href="./third-page.html"><i class="fa-solid fa-arrow-rotate-right"></i></a> 
+    </div>
+    <div class="dot"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+  </div>
+  <div class="nav-2-2">
+    <p class="date">8/13/2022</p>
+    <div class="arrow1"><i class="fa-solid fa-circle-left"></i></div>
+    <div class="arrow2"><i class="fa-solid fa-circle-right"></i></div>
+  </div>
+</div>
+<!-- end => navbar-2 -->
+
+<!-- start => navbar-3 -->
+<div class="navbar-3">
+  <div class="primary">
+  <a href="./third-page.html">    <i class="fa-brands fa-square-pied-piper"></i> Primary </a> 
+  </div>
+  <div class="social"><i class="fa-solid fa-user-group"></i> Social</div>
+  <div class="promotion"><i class="fa-solid fa-tags"></i> Promotion</div>
+</div>
+<!-- end => navbar-3 -->
+
+      <!-- mail  file start -->
+      <div class="main2">
+        <div class="child1">
+          <img src="./assets/github.png" width="40" />
+                 <h1>GitHub</h1> </div>
+        <div class="child2">
+          <img
+            src="./assets/Logo-Git.png.crdownload"
+            class="image"
+          />
+          <p>
+
+            Download now for free this Git Logo transparent PNG picture with no background. Use it in your personal projects or share it as a cool sticker on Tumblr, ..
+          </p>
+        </div>
+    </div>
+  </body>
+</html>

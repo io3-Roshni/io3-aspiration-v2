@@ -352,7 +352,7 @@ body {
   position: relative;
   top: 15%;
   left: 20%;
-  width: 75%;
+  width: 73.5%;
   height: 7vh;
   background-color: rgb(185, 216, 245);
 }
@@ -380,7 +380,7 @@ body {
   left: 45%;
   width: 15%;
   height: 7vh;
-  font-size: 20px;
+  font-size: 22px;
   padding: 1%;
 }
 /* end => navbar-2 */
@@ -402,7 +402,7 @@ body {
   top: 15%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(197, 222, 243);
@@ -422,7 +422,7 @@ body {
   top: 25%;
   right: 1%;
   width: 5%;
-  font-size: 12px;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
 /* end => mail-1 */
@@ -433,7 +433,7 @@ body {
   top: 9%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(195, 211, 225);
@@ -444,7 +444,7 @@ body {
   top: 28%;
   right: 1%;
   width: 5%;
-  font-size: 12px;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .mail-box-d {
@@ -463,7 +463,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .para {
-  font-size: 15px;
+  font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .hide {
@@ -493,7 +493,7 @@ body {
   top: 9%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(230, 241, 250);
@@ -505,7 +505,7 @@ body {
   top: 3.2%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -517,7 +517,7 @@ body {
   top: 3%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(217, 233, 246);
@@ -529,7 +529,7 @@ body {
   top: -2.8%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -541,7 +541,7 @@ body {
   top: -3%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(212, 229, 243);
@@ -553,7 +553,7 @@ body {
   top: -8.9%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -565,7 +565,7 @@ body {
   top: -9%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(224, 236, 245);
@@ -577,7 +577,7 @@ body {
   top: -14.8%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -589,7 +589,7 @@ body {
   top: -15%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(222, 234, 245);
@@ -601,7 +601,7 @@ body {
   top: -20.8%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -613,7 +613,7 @@ body {
   top: -21%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(213, 227, 237);
@@ -625,7 +625,7 @@ body {
   top: -26.9%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -637,7 +637,7 @@ body {
   top: -27%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(233, 242, 249);
@@ -649,7 +649,7 @@ body {
   top: -32.8%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -661,7 +661,7 @@ body {
   top: -33%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(214, 230, 244);
@@ -673,7 +673,7 @@ body {
   top: -38.8%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -685,7 +685,7 @@ body {
   top: -39%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(216, 232, 245);
@@ -697,7 +697,7 @@ body {
   top: -44.9%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -709,7 +709,7 @@ body {
   top: -45%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(238, 245, 250);
@@ -721,7 +721,7 @@ body {
   top: -50.8%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -733,7 +733,7 @@ body {
   top: -51%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(224, 237, 248);
@@ -745,7 +745,7 @@ body {
   top: -56.8%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -757,7 +757,7 @@ body {
   top: -57%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(211, 227, 240);
@@ -769,7 +769,7 @@ body {
   top: -62.8%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -781,7 +781,7 @@ body {
   top: -63%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(231, 241, 249);
@@ -793,7 +793,7 @@ body {
   top: -68.8%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -805,7 +805,7 @@ body {
   top: -69%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(211, 227, 238);
@@ -817,7 +817,7 @@ body {
   top: -74.8%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -829,7 +829,7 @@ body {
   top: -75%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(225, 237, 246);
@@ -841,7 +841,7 @@ body {
   top: -80.8%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -852,7 +852,7 @@ body {
   top: -81%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(228, 238, 247);
@@ -864,7 +864,7 @@ body {
   top: -86.8%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -875,7 +875,7 @@ body {
   top: -87%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(223, 232, 240);
@@ -898,7 +898,7 @@ body {
   top: -93%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(226, 231, 236);
@@ -910,7 +910,7 @@ body {
   top: -98.8%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -921,7 +921,7 @@ body {
   top: -99%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(232, 242, 251);
@@ -933,7 +933,7 @@ body {
   top: -104.8%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -944,7 +944,7 @@ body {
   top: -105%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   background-color: rgb(213, 230, 244);
@@ -956,7 +956,7 @@ body {
   top: -110.8%;
   left: 20%;
   display: flex;
-  width: 75%;
+  width: 73.5%;
   height: 6vh;
   padding: 9px;
   opacity: 0;
@@ -1151,7 +1151,7 @@ body {
     width: 55%;
     height: 8%;
     margin-left: 6%;
-    font-size: 14px;
+    font-size: 15px;
     padding: 1%;
   }
   .sidebar-right {
@@ -1176,7 +1176,7 @@ body {
   .primary,
   .social,
   .promotion {
-    font-size: 16px;
+    font-size: 17px;
   }
   .space {
     font-size: 15px;

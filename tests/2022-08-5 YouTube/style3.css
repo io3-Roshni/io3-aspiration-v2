@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.main{
+  width: 90vw;
+}
 /* ......nav..... */
 .nav {
   display: flex;
@@ -84,7 +87,7 @@
   text-align: left;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 15px;
-  width: 250px;
+  width: 200px;
   height: 100vh;
 }
 .fa-compass,
@@ -131,33 +134,85 @@
 .fa-youtube {
   color: red;
   padding-left: 0%;
+
 }
 
 .videos {
   width: 81%;
-  margin-left: 20%;
+  margin-left: 25%;
   margin-top: 0px;
-}
-.videos16 {
-  display: flex;
-  flex-direction: column;
-  float: right;
-  position: absolute;
-  top: 15%;
-  right: 0%;
-}
-.animation {
-  width: 300px;
-  height: 100px;
-}
-.animationfull {
-  width: 500px;
-  height: 500px;
-  padding: 0px 0px 0px 50px;
 }
 
 .teasels,
 .bear,
 .book {
   padding: 1%;
+}
+.main2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 98vh;
+  min-width: 70vw;
+  flex-direction: column;
+  gap:30px;
+  background-color: rgb(133, 182, 214);
+}
+
+h1 .ani{
+  text-shadow:0px 0px 15px white;
+  font-size: 50px;
+  padding: 10px;
+}
+h1:hover{
+  color: white;
+  text-shadow:5px 5px 10px #1d2b3a;
+}
+.input-box{
+  position: relative;
+  width: 300px;
+}
+.input-box input{
+  width: 100%;
+  padding: 15px;
+  border:1px solid rgba(255,255,255,0.25);
+  background: #1d2b3a;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 1em;
+  transition: 0.5s;
+}
+.input-box span{
+  position: absolute;
+  left:0;
+  padding: 15px;
+  pointer-events: none;
+  font-size: 1em;
+  color: rgba(255,255,255,0.25);
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.input-box input:active ~ span,
+.input-box input:focus ~ span{
+  color:aquamarine;
+  transform: translateX(10px) translateY(-7);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background: #1d2b3a;
+  margin-top: -5px;
+  margin-left: 10px;
+  border-left: 2px solid aquamarine;
+  border-right: 2px solid aquamarine;
+  letter-spacing: 0.2em;
+}
+.input-box:nth-child(2) input:active ~ span,
+.input-box:nth-child(2) input:focus ~ span{
+  background-color: aquamarine;
+  color : #1d2b3a; 
+}
+
+.input-box input:active,
+.input-box input:focus {
+  border: 2px solid aquamarine;
 }

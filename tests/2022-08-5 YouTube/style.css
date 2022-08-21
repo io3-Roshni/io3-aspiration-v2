@@ -3,8 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+.main{
+  width: 95vw;
+}
 /* ......nav..... */
 .nav {
+  z-index: 1;
   display: flex;
   position: fixed;
   top: 0%;
@@ -84,7 +88,7 @@
   text-align: left;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 15px;
-  width: 250px;
+  width: 200px;
   height: 100vh;
 }
 .fa-compass,
@@ -131,17 +135,20 @@
 }
 .videos {
   z-index: -1;
-  width: 81%;
+  width: 88%;
   margin-left: 20%;
   margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .videos16 {
   display: flex;
   flex-wrap: wrap;
 }
 .animation {
-  width: 300px;
-  height: 350px;
+  width: 200px;
+  height: 250px;
+
 }
 .teasels,
 .bear,

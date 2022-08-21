@@ -84,7 +84,7 @@
   text-align: left;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 15px;
-  width: 250px;
+  width: 200px;
   height: 100vh;
 }
 .fa-compass,
@@ -134,7 +134,7 @@
 }
 
 .videos {
-  width: 81%;
+  width: 20%;
   margin-left: 15%;
   margin-top: 10%;
 }

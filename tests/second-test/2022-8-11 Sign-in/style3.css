@@ -7,6 +7,11 @@ a{
   text-decoration: none;
   color: black;
 }
+
+a:hover{
+  color: rgb(25, 158, 247);
+
+}
 body {
   background-color: rgb(245, 249, 253);
 }
@@ -1278,11 +1283,11 @@ body {
     left: 9%;
   }
   .para {
-    font-size: 8px;
+    font-size: 9px;
   }
   .time {
     right: 2%;
-    font-size: 6px;
+    font-size: 8px;
   }
   /* ------hover start----- */
   .mail-box-d {
@@ -1295,18 +1300,18 @@ body {
   .del,
   .mess,
   .clock {
-    font-size: 9px;
+    font-size: 11px;
+    margin-top: 5%;
   }
   .time-d {
     right: 2%;
-    font-size: 6px;
+    font-size: 8px;
   }
 }
 
 /* ------media screen 100px to 600px------- */
 
 /* ------start=>left-sidebar------- */
-
 @media screen and (min-width: 00px) and (max-width: 600px) {
   .fa-bars {
     top: 41%;

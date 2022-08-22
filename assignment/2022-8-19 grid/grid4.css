@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 1%;
+  background-color: aquamarine;
+  display: grid;
+  grid-gap: 3rem;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-rows: 2fr 9fr 9fr 9fr 9fr 18fr 2fr;
+}
+.child1 {
+  background-color: aqua;
+  grid-column: 1/-1;
+  height: 50px;
+}
+.child2 {
+  background-color: rgb(11, 58, 58);
+}
+.child3 {
+  background-color: rgb(0, 255, 81);
+}
+.child4 {
+  background-color: rgb(255, 0, 111);
+}
+.child5 {
+  background-color: rgb(255, 170, 0);
+}
+.child6 {
+  background-color: rgb(0, 51, 255);
+}
+.child7 {
+  background-color: rgb(236, 165, 230);
+}
+.child8 {
+  background-color: rgb(11, 58, 58);
+}
+.child9 {
+  background-color: rgb(0, 255, 81);
+}
+.child10 {
+  background-color: rgb(255, 0, 111);
+}
+.child11 {
+  background-color: rgb(255, 170, 0);
+}
+.child12 {
+  background-color: rgb(0, 51, 255);
+}
+.child13 {
+  background-color: rgb(236, 165, 230);
+}
+.child14 {
+  background-color: rgb(11, 58, 58);
+}
+.child15 {
+  background-color: rgb(0, 255, 81);
+}
+.child16 {
+  background-color: rgb(255, 0, 111);
+}
+.child17 {
+  background-color: rgb(255, 170, 0);
+}
+.child1-box {
+  grid-column: 1/-1;
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 1.5rem;
+}
+.child18 {
+  background-color: rgb(236, 165, 230);
+}
+.child19 {
+  background-color: rgb(162, 141, 246);
+}
+.child20 {
+  background-color: rgb(23, 139, 205);
+}
+.child21 {
+  grid-column: 1/-1;
+  background-color: rgb(236, 165, 230);
+}

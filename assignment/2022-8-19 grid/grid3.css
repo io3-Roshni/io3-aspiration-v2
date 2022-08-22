@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 1%;
+  background-color: aquamarine;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: 3fr 10fr 15fr 2fr;
+}
+.child1 {
+  background-color: aqua;
+  grid-column: 1/-1;
+  height: 60px;
+}
+.child3 {
+  grid-column: 2/-1;
+  background-color: rgb(0, 255, 81);
+}
+.child5 {
+  grid-column: 2/-1;
+  background-color: rgb(255, 170, 0);
+}
+.child6 {
+  grid-column: 1/-1;
+  background-color: rgb(0, 51, 255);
+}

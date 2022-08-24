@@ -69,6 +69,7 @@
   padding: 5px;
   font-size: 20px;
   width: 34%;
+  margin-right: 3%;
 }
 /*......nav-icon.....*/
 
@@ -84,7 +85,7 @@
   text-align: left;
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-size: 15px;
-  width: 200px;
+  width: 180px;
   height: 100vh;
 }
 .fa-compass,
@@ -109,14 +110,20 @@
   padding: 8px;
 }
 
-.fa-arrow-left .fa-bell,
 .fa-microphone,
 .fa-magnifying-glass {
   color: gray;
   font-size: 12px;
 }
+.fa-bell{
+  color: gray;
+  font-size: 15px;
+  margin-top: 5%;
+}
+
 .fa-arrow-left {
   cursor: pointer;
+  color: rgb(134, 197, 252);
 }
 .fa-square-plus {
   color: gray;
@@ -134,8 +141,8 @@
 }
 
 .videos {
-  width: 20%;
-  margin-left: 15%;
+  width: 50%;
+  margin-left: 20%;
   margin-top: 10%;
 }
 .videos16 {
@@ -145,15 +152,8 @@
   position: absolute;
   top: 15%;
   right: 0%;
+  z-index: -1;
 }
-.animation {
-  width: 300px;
-  height: 100px;
-}
-.animationfull {
-  padding: 0px 0px 0px 30px;
-}
-
 .teasels,
 .bear,
 .book {
@@ -162,7 +162,66 @@
 .frame {
   display: flex;
   padding: 1%;
-  width: 300px;
+  width: 245px;
   height: 110px;
-  background-color: bisque;
+  background-color:white;
+}
+
+p{
+
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.dis{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  padding: 1%;
+  width: 70%;
+}
+.like,
+.dislike, 
+.share, 
+.clip, 
+.save{
+  padding: 1%;
+  width: 1.2rem;
+  font-size: large;
+  color: black;
+}
+.discr{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5%;
+  border:1px solid gray
+}
+.subs{
+margin:3% ;
+font-weight: 700;
+border-radius:8px;
+background-color: red;
+width: 6rem;
+padding: 1%;
+text-align: center;
+color: white;
+}
+.image{
+  display: flex;
+  padding: 1%;
+}
+.girl{
+  border-radius: 50%;
+}
+.name{
+  font-size: large;
+  color: cornflowerblue;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+.s-name{
+  font-size: 10px;
+  color: rgb(46, 208, 248);
+  margin-top: 18%;
+  margin-left: -27%;
 }

@@ -56,13 +56,14 @@
 
       .image_content {
         width: 100%;
-        /* top: -100; */
+        top: 10;
         position: relative;
       }
 
       .image_content img {
         width: 100%;
-        height: 28rem;
+        height: 40rem;
+        margin-top: 5%;
         /* object-fit: fill; */
         /* z-index: -1; */
       }
@@ -482,14 +483,14 @@
       <div id="page2" class="page-structure">
         <div class="container">
           <div class="image_content">
-            <img src="./car--img.jpg" alt="" />
+            <img src="./img--car.jpg" alt="" />
           </div>
           <div class="details_content">
             <div class="intro_content">
-              <h3>Dear <span>[customerName],</span></h3>
+              <h3>Dear <span>{{customerName}},</span></h3>
               <p>
                 Thank you for choosing our platform for your car insurance needs.<br />
-                [policyName] has you protected if any financial obligations
+                {{policyName}} has you protected if any financial obligations
                 arise<br />
                 due to untoward incidents on the road.
               </p>
@@ -515,11 +516,11 @@
                 <table>
                   <tr>
                     <td class="top-lft">Vehicle Registration No.</td>
-                    <td class="top-rgt">[vehicleRegistrationNo]</td>
+                    <td class="top-rgt">{{vehicleRegistrationNo}}</td>
                   </tr>
                   <tr>
                     <td class="btm-lft">Make/Model</td>
-                    <td class="btm-rgt">[makeModel]</td>
+                    <td class="btm-rgt">{{makeModel}}</td>
                   </tr>
                 </table>
               </div>
@@ -531,7 +532,7 @@
                 <table>
                   <tr>
                     <td class="top-lft">Policy Number</td>
-                    <td class="top-rgt">[policyNumber]</td>
+                    <td class="top-rgt">{{policyNumber}}</td>
                   </tr>
                   <tr>
                     <td>Policy Period</td>
@@ -539,7 +540,7 @@
                   </tr>
                   <tr>
                     <td class="btm-lft">Premium Paid</td>
-                    <td class="btm-rgt">[premiumPaid]</td>
+                    <td class="btm-rgt">{{premiumPaid}}</td>
                   </tr>
                 </table>
               </div>
@@ -548,7 +549,7 @@
             <div class="insurance_data">
               <p>
                 In case you need help with servicing or claims, <br />
-                please reach out to [insurerName]:
+                please reach out to {{insurerName}}:
               </p>
             </div>
 
@@ -557,11 +558,11 @@
                 <table>
                   <tr>
                     <td class="top-lft"><img src="./phone-.png" class="phone" > &nbsp; Contact Number</td>
-                    <td class="top-rgt">[contactNumber]</td>
+                    <td class="top-rgt">{{contactNumber}}</td>
                   </tr>
                   <tr>
                     <td class="btm-lft"><img src="./mail-box.png" class="mail-box">&nbsp; Email ID</td>
-                    <td class="btm-rgt">[emailId]</td>
+                    <td class="btm-rgt">{{emailId}}</td>
                   </tr>
                 </table>
               </div>

@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+  width: 95vw;;
+}
+/* ......nav..... */
+.nav {
+  z-index: 1;
+  display: flex;
+  position: fixed;
+  top: 0%;
+  width: 100vw;
+  height: 8%;
+  border: 1px solid rgb(238, 235, 235);
+  background-color: white;
+}
+
+/*......left-nav-icon.....*/
+.fa-align-justify {
+  font-size: 20px;
+  color: black;
+  margin-left: 1rem;
+}
+/* ......hover........ */
+.fa-align-justify:hover{
+  text-shadow: 1px 1px 35px rgb(54, 4, 4);
+}
+/* ......hover end........ */
+
+.fa-youtube {
+  color: red;
+  padding-top: 1px;
+}
+#youtube {
+  display: flex;
+  justify-content: start;
+  width: 30vw;
+  padding: 2px;
+  height: 40px;
+  padding-top: 5px;
+}
+.search {
+  font-size: 10px;
+  width: 35%;
+  height: 36px;
+  border: 1px solid black;
+  margin: 8px;
+}
+
+#navbar {
+  float: left;
+  display: inline;
+  width: 40px;
+  height: 40px;
+  padding: 9px;
+  font-size: 15px;
+}
+.search-icon {
+  width: 50px;
+  height: 35px;
+  float: right;
+  padding: 9px;
+  font-size: 15px;
+  border-left: 1px solid black;
+  cursor: pointer;
+}
+.tell {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 9px;
+  width: 32px;
+  height: 32px;
+  background-color: rgb(193, 188, 188);
+}
+/* ......hover........ */ 
+.tell:hover{
+  box-shadow: 0.1px 0px 5px rgb(61, 61, 63);
+  cursor: pointer;
+}
+/* ......hover end........ */
+
+#navbar2 {
+  display: flex;
+  justify-content:right;
+  align-items: center;
+  padding: 13px;
+  font-size: 20px;
+  margin-right: 2%;
+  width: 400px;
+  height: 40px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  font-size: 18px;
+  width: 25%;
+}
+/* ......hover........ */ 
+.fa-bell:hover,
+.fa-magnifying-glass:hover{
+  text-shadow: 0.1px 0px 5px rgb(173, 173, 176);
+  cursor: pointer;
+  font-size: 17px;
+}
+/* ......hover end........ */
+
+.fa-microphone,
+.fa-magnifying-glass {
+  color: gray;
+  font-size: 13px;
+}
+.fa-bell{
+  color: gray;
+  font-size: 15px;
+  margin-top: 6%;
+}
+
+.fa-square-plus {
+  cursor: pointer;
+  color: gray;
+  font-size: 15px;
+}
+.fa-circle-info{
+  background-color: rgb(235, 123, 123);
+  border-radius: 50%;
+  margin: 2px;
+  color: rgb(255, 249, 249);
+}
+/* ......hover........ */ 
+.fa-circle-info:hover,
+.fa-square-plus:hover{
+  text-shadow: 0.1px 0px 5px rgb(173, 173, 176);
+  cursor: pointer;
+  font-size: 17px;
+}
+/* ......hover end........ */
+
+
+/* ......navigation second start ......*/
+.nav-2{
+  position: fixed;
+  top:8%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 18%;
+  width: 87%;
+  height: 50px;
+  background-color: rgb(242, 241, 243);
+}
+.child{
+  text-align: center;
+  border-radius: 20px;
+  margin: 0.5rem;
+  padding: 0.5%;
+  border: 1px solid black;
+  width: 7rem;
+}
+/* ......hover........ */ 
+.child:hover{
+  box-shadow: 0.1px 0px 5px rgb(61, 61, 63);
+  cursor: pointer;
+  background-color: rgb(239, 234, 234);
+  font-size: 17px;
+}
+/* ......hover end........ */
+
+ /* ....... left side bar start ....... */
+.side-bar {
+  padding: 20px;
+  position: fixed;
+  top: 8%;
+  border-right: 1px solid rgb(251, 246, 246);
+  text-align: left;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  width: 11rem;
+  height: 100vh;
+  cursor: pointer;
+}
+.fa-compass,
+.fa-trello,
+.fa-dice-d6,
+.fa-floppy-disk,
+.fa-clock,
+.fa-square-caret-right,
+.fa-fire,
+.fa-thumbs-up,
+.fa-music,
+.fa-award,
+.fa-dragon,
+.fa-photo-film,
+.fa-film,
+.fa-bilibili,
+.fa-podcast,
+.fa-wand-magic-sparkles,
+.fa-book-open-reader {
+  color: gray;
+  font-size: 10px;
+  padding: 8px;
+}
+.fa-home {
+  color: gray;
+  font-size: 9px;
+  padding: 8px;
+}
+/* ....... left side bar ends ....... */
+
+/* ....... videos design start ...... */
+.videos {
+  box-sizing: 0%;
+  z-index: -1;
+  width: 83%;
+  margin-left: 20%;
+  margin-top: 12rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.face{
+  width: 50rem;
+  height: 20rem;
+}
+.io-th{
+  margin-left: 5rem;
+  margin-bottom: 3rem;
+}
+h3{
+  margin-top:-10.4rem;
+  margin-left: 40.4rem;
+  font-size: large;
+  z-index: 1;
+}
+/* ......hover........ */ 
+h3:hover{
+  text-shadow: 0.1px 0px 4px rgb(177, 177, 243),5px 0px 5px rgb(52, 228, 52), 0px 2px 5px rgb(238, 67, 240);
+  cursor: pointer;
+  font-size: 18.2px;
+}
+/* ......hover end........ */
+
+/* ....... videos16 small design start ...... */
+.videos16 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.animation {
+  width: 200px;
+  height: 260px;
+}
+.vdo-1{
+box-shadow: 0px 0px 5px black;
+}
+/* ....... videos16 small design btm-box start ...... */
+.btm-box{
+  display: flex;
+  width: 90%;
+  border: 1px solid rgb(238, 231, 231);
+}
+.round{
+  border-radius: 50%;
+}
+.dis{
+  width: 0;
+}
+p{
+  font-size: 0.6rem;
+  width: 1.2rem;
+}
+.like, 
+.dislike, 
+.share, 
+.Save, 
+.th-dot{
+  font-size: 0.6rem;
+  color: gray;
+  margin: 0.1rem;
+  padding: 0.2rem;
+}
+/* ....... videos design end ...... */

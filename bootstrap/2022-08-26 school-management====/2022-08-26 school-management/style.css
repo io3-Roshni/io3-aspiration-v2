@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  background-color: white;
+}
+.BOLD{
+  font-weight: 900;
+  font-size: 65px;
+}
+.loginButton:hover {
+  background-color: rgb(213, 189, 232);
+}
+.platform{
+  margin-top: 10%;
+}
+.center{
+  margin-top: 3rem;
+  letter-spacing: 0.3rem;
+  font-weight: 700;
+}
+.num{
+  height: 6rem;
+}
+
+.center1{
+  /* margin-left: 10rem; */
+  font-weight: bolder;
+}
+.center2{
+  margin-left: 6rem;
+}
+.box{
+  margin-top: 6%;
+  display: flex;
+}
+.color1{
+  background-color: rgb(255,250,236);
+  width: 50%;
+  height: 26rem;
+  border-radius: 20px;
+  padding: 1%;
+  margin-right: 5%;
+
+}
+.school{
+  width: 20rem;
+  height: 25rem;
+  margin-left: 16rem;
+  margin-top: -13.5rem;
+}
+.scl{
+  text-align:start;
+  top: 25%;
+  left:10%;
+  font-size: large;
+  width: 20rem;
+  background-color: rgb(255,250,236);
+}
+
+.color2{
+  background-color: rgb(238,253,255);
+  width: 50%;
+  height: 26rem;
+  border-radius: 20px;
+  padding: 1%;
+
+}
+.teacher{
+  width: 20rem;
+  height: 24.5rem;
+  margin-left: 16rem;
+  margin-top: -14.5rem;
+}
+.scl2{
+  text-align:start;
+  top: 25%;
+  left:10%;
+  font-size: large;
+  width: 20rem;
+  background-color:rgb(238,253,255);
+}
+
+.color3{
+  background-color: rgb(245,238,254);
+  width: 50%;
+  height: 26rem;
+  border-radius: 20px;
+  padding: 1%;
+  margin-right: 5%;
+}
+.student{
+  width: 20rem;
+  height: 24.5rem;
+  margin-left: 16rem;
+  margin-top: -12.5rem;
+}
+.scl3{
+  text-align:start;
+  top: 25%;
+  left:10%;
+  font-size: large;
+  width: 20rem;
+  background-color:rgb(245,238,254);
+}
+
+.color4{
+  background-color: rgb(255,243,247);
+  width: 50%;
+  height: 26rem;
+  border-radius: 20px;
+  padding: 1%;
+
+}
+.parents{
+  width: 20rem;
+  height: 24.5rem;
+  margin-left: 16rem;
+  margin-top: -12.5rem;
+}
+.scl4{
+  text-align:start;
+  top: 25%;
+  left:10%;
+  font-size: large;
+  width: 20rem;
+  background-color:rgb(255,243,247);
+}
+.my-btn{
+margin-left: 33rem;
+margin-top: 3rem;
+}
+.Simplify{
+  position: sticky;
+  top:0%;
+  left: 1%;
+  z-index: 1;
+  background-color:rgb(255,255,255);
+  /* margin: 0.3rem; */
+  /* display: inline; */
+  margin-top: 8rem;
+  font-weight: 800;
+  font-size: 2rem;
+  height: 15rem;
+}
+.Simplify2{
+  margin-top: -5%;
+  margin-right: -28%;
+}
+.carousel-inner{
+  margin-top:0;
+}
+
+/* .sect-9-col{
+  background-color: #f9fafb;
+}
+.sect-9-col .row{
+  background-color: transparent;
+}
+title{
+  position: sticky;
+  top:2%;
+} */
+
+/* ----- infinity slider start ----- */
+section {
+	display:flex;
+	flex-flow:column;
+	align-items:center;
+}
+div.highway-slider {
+	width:100%;
+}
+	div.highway-barrier {
+		overflow:hidden;
+	}
+	.highway-lane {
+		display:flex;
+        width: 350% !important;
+        height: 70%;
+    }
+    .highway-logo {
+      display:flex;
+          width: 160% !important;
+          height: 70%;
+      }
+
+		.highway-car {
+			/* flex:1; */
+			display:flex;
+			justify-content:center;
+            width: 20% !important ;
+            
+		}
+    .slider{
+      box-shadow: 0px 0px 10px rgb(170, 167, 167)!important;
+      border-radius: 20px;
+      height: 22rem;
+      margin: 0.8rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
+    }
+
+    .slider2{
+      width: 6rem;
+    }
+
+    /* ------important => infinity scroll ------ */
+@keyframes translatestf {
+	0% { transform:translateX(100%);  }
+	100% { transform:translateX(-500%);   }
+}
+		.highway-car {
+			animation:translatestf 50s linear infinite;
+        }
+       /* ----- infinity slider ends ----- */
+
+       .section-5-col {
+        background-color: #f9fafb;
+      }
+.section-5-col .row {
+  background-color: transparent;
+}
+.section-5-title-row {
+  position: sticky;
+  top: 1%;
+}
+.section-5-title-row .col-8 h1 {
+  font-weight: 800;
+}
+.carousel-indicators {
+  color: black;
+}
+
+.card-pic-top{
+  margin-left: 40% ;
+  margin-top: 5%;
+}

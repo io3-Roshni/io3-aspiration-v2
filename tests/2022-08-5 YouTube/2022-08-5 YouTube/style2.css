@@ -154,11 +154,7 @@
   right: 0%;
   z-index: -1;
 }
-.teasels,
-.bear,
-.book {
-  padding: 1%;
-}
+
 .frame {
   display: flex;
   padding: 1%;
@@ -202,7 +198,7 @@ font-weight: 700;
 border-radius:8px;
 background-color: red;
 width: 6rem;
-padding: 1%;
+padding: 2.5%;
 text-align: center;
 color: white;
 }
@@ -212,6 +208,8 @@ color: white;
 }
 .girl{
   border-radius: 50%;
+  width:4rem;
+  height:4rem;
 }
 .name{
   font-size: large;
@@ -225,3 +223,50 @@ color: white;
   margin-top: 18%;
   margin-left: -27%;
 }
+.name-2{
+  margin-top: 6%;
+  margin-left: -8%;
+}
+
+/* @media screen and (min-width: 1024px) and (max-width:1219px){
+  body {
+    background-color: hotpink;
+  }
+} */
+
+@media screen and (min-width: 770px) and (max-width:1023px){
+  body {
+    background-color: white;
+  }
+  /*----- right side videos start ----- */
+.videos16 {
+  flex-wrap: wrap;
+  top: 80%;
+  left: 20%;
+}
+/* -------- center video start ------- */
+.videos {
+  width: 77%;
+}
+p .hindi{
+  font-weight: 900;
+}
+.span-sub{
+  padding-left: 4%;
+  font-size: 0.8rem;
+}
+}
+/* @media screen and (min-width: 480px) and (max-width:769px){
+  body {
+    background-color: lightgreen;
+  }
+} */
+
+
+/* On screens that are 992px wide or less, the background color is blue */
+/* @media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+    color: white;
+  }
+} */

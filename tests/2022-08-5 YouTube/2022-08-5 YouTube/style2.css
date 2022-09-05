@@ -158,9 +158,28 @@
 .frame {
   display: flex;
   padding: 1%;
-  width: 245px;
+  width: 295px;
   height: 110px;
   background-color:white;
+}
+.para-box{
+  width: 90%;
+  padding: 1%;
+}
+.icon{
+  font-size: 0.6rem;
+  padding: 0.3rem;
+}
+.like-blue, .dislike-red{
+  font-size: 0.7rem;
+  padding: 0.2rem;
+}
+.span-sub{
+  color:red;
+  font-size: 0.7rem;
+  letter-spacing: normal;
+  padding-left:5rem ;
+  cursor: pointer;
 }
 
 p{

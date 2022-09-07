@@ -29,14 +29,21 @@ studentReportCard ({ mathMarks:math , chemistryMarks:chemistry , physicsMarks:ph
 
 console.log(`-------- 4. average marks in five subjects ------>>`)
 
-const name = prompt(`Enter your name`);
-const maths = prompt(`Enter your math marks`);
-const chem = prompt(`Enter your chemistry marks`);
-const phys = prompt(`Enter your physics marks `);
-const eng = prompt(`Enter your english marks`);
-const env = prompt(`Enter your environment marks`);
+var name = prompt(`Enter your name`);
+var maths = prompt(`Enter your lucky no.`);
+var chem = prompt(`Enter your choice of no.`);
+var phys = prompt(`Enter your wishes day  `);
+var eng = prompt(`Enter your lucky day in no.`);
+var env = prompt(`Enter your favorite no.`);
+var name = prompt(`Enter your name in no.`);
+var maths = prompt(`Enter your lucky name in no.`);
+var chem = prompt(`Enter your choose favorite game name in  no.`);
+var phys = prompt(`Enter your friend wishes day in no.`);
+var eng = prompt(`Enter your favorite song name in no.`);
+var env = prompt(`Enter your favorite cartoon name in no.`);
 
-function studentReportCard ({ yourName, mathMarks, chemistryMarks, physicsMarks, englishMarks, environmentMarks} ) {
+
+function studentReportCard ({ yourName, mathMarks, chemistryMarks, physicsMarks, englishMarks, environmentMarks } ) {
 
 console.log(yourName, mathMarks, chemistryMarks, physicsMarks, englishMarks, environmentMarks)
 

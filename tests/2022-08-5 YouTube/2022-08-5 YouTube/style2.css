@@ -222,6 +222,11 @@ padding: 2.5%;
 text-align: center;
 color: white;
 }
+/* ----- hover ------ */
+.subs:hover{
+box-shadow: 0px 0px 5px red;
+cursor: pointer;
+}
 .image{
   display: flex;
   padding: 1%;

@@ -2,7 +2,7 @@ console.log("----------------1. Math.integer(x)-------------");
 
 function nanOrNumber (n){
     console.log( n)
-    if (isNaN(n)) return `Enter valid number`;
+    if (isNaN(n)) return `try again, Enter valid number here`;
     console.log( n)
 
 }
@@ -16,11 +16,11 @@ console.log("----------------2. greater less equal-------------");
 
 function abc  (a, b){
 if (a > b) 
-    {return "biggest number";}
+    {return `biggest number ${a} is greater than ${b}`;}
 else if (b > a) 
-    {return "medium number";}
+    {return `biggest number ${b} is greater than ${a}`;}
 else (a == b)
-     {return "both are equal";}
+     {return `both are equal ${a} and ${b}`;}
 }
 let a = 9;
 let b = 9;
@@ -61,7 +61,7 @@ else
 {return "this number is not exist here";}
 }
 let C = prompt(`Enter any number`)
-console.log( exist (C))
+console.log( exist (C, A, B))
 
 
 console.log("---------- 5. evaluateNumbers------------");

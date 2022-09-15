@@ -52,13 +52,13 @@ const A = 2;
 const B = 20;
 function exist (num, startNum, endNum){
    
-if (A == 2 &&  B == 20){
-    return "this number is exist here"; }
+if (A == 2 &&  B == 20 && C >= 2){
+    return `${C} number is exist here`; }
 
-else if (C >= 2 || C == 20)
- {return"this number is exist here";}
-else
-{return "this number is not exist here";}
+else  (C < 2)
+ {return`${C} number is not exist here`;}
+// else
+// {return "this number is not exist here";}
 }
 let C = prompt(`Enter any number`)
 console.log( exist (C, A, B))

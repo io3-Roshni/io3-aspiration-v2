@@ -1,97 +1,97 @@
-// let gen = prompt(`Enter your gender(m, f)`);
-// let yearOfSvc = prompt(`Enter here year of service`);
-// let qlfCTion = prompt(`Enter your qualification(pg, g)`);
+let gen = prompt(`Enter your gender(m, f)`);
+let yearOfSvc = prompt(`Enter here year of service`);
+let qlfCTion = prompt(`Enter your qualification(pg, g)`);
 
-// function dataList ({gender, yearOfService, qualifications}){
-// if( yearOfService >= 10 && qualifications == 'pg'){
-//     return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
-//     So his salary is 15000`
-// }
+function dataList ({gender, yearOfService, qualifications}){
+if( yearOfService >= 10 && qualifications == 'pg'){
+    return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
+    So his salary is 15000`
+}
 
-// else if(gender == 'm' && yearOfService >= 10 && qualifications == 'g'){
-//     return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
-//     So his salary is 10000`
-// }
-// else if(gender == 'm' && yearOfService < 10 && qualifications == 'pg'){
-//     return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
-//     So his salary is 10000`
-// }
-// else if(gender == 'm' && yearOfService < 10 && qualifications == 'g'){
-//     return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
-//     So his salary is 7000`
-// }
+else if(gender == 'm' && yearOfService >= 10 && qualifications == 'g'){
+    return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
+    So his salary is 10000`
+}
+else if(gender == 'm' && yearOfService < 10 && qualifications == 'pg'){
+    return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
+    So his salary is 10000`
+}
+else if(gender == 'm' && yearOfService < 10 && qualifications == 'g'){
+    return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
+    So his salary is 7000`
+}
 
-// else if(gender == 'f' && yearOfService >= 10 && qualifications == 'pg'){
-//     return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
-//     So her salary is 12000`
-// }
+else if(gender == 'f' && yearOfService >= 10 && qualifications == 'pg'){
+    return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
+    So her salary is 12000`
+}
 
-// else if(gender == 'f' && yearOfService >= 10 && qualifications == 'g'){
-//     return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
-//     So her salary is 9000`
-// }
-// else if(gender == 'f' && yearOfService < 10 && qualifications == 'pg'){
-//     return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
-//     So her salary is 10000`
-// }
-// else if(gender == 'f' && yearOfService < 10 && qualifications == 'g'){
-//     return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
-//     So her salary is 6000`
-// }
-// else{
-//     return `something went wrong.`
-// }
+else if(gender == 'f' && yearOfService >= 10 && qualifications == 'g'){
+    return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
+    So her salary is 9000`
+}
+else if(gender == 'f' && yearOfService < 10 && qualifications == 'pg'){
+    return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
+    So her salary is 10000`
+}
+else if(gender == 'f' && yearOfService < 10 && qualifications == 'g'){
+    return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
+    So her salary is 6000`
+}
+else{
+    return `something went wrong.`
+}
 
-// }
+}
 
-// function dataList ({gender, yearOfService, qualifications}){
+function dataList ({gender, yearOfService, qualifications}){
 
-//     if(gender == 'm'){
-//         if( yearOfService >= 10 && qualifications == 'pg'){
-//             return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
-//             So his salary is 15000`
-//         }
+    if(gender == 'm'){
+        if( yearOfService >= 10 && qualifications == 'pg'){
+            return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
+            So his salary is 15000`
+        }
         
-//         else if( yearOfService >= 10 && qualifications == 'g'){
-//             return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
-//             So his salary is 10000`
-//         }
-//         else if( yearOfService < 10 && qualifications == 'pg'){
-//             return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
-//             So his salary is 10000`
-//         }
-//         else if( yearOfService < 10 && qualifications == 'g'){
-//             return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
-//             So his salary is 7000`
-//         } else {
-//             return ` something went wrong with male data`
-//         }
+        else if( yearOfService >= 10 && qualifications == 'g'){
+            return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
+            So his salary is 10000`
+        }
+        else if( yearOfService < 10 && qualifications == 'pg'){
+            return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
+            So his salary is 10000`
+        }
+        else if( yearOfService < 10 && qualifications == 'g'){
+            return `This employee is ${gender} his years of services is ${yearOfService} and he has done ${qualifications}
+            So his salary is 7000`
+        } else {
+            return ` something went wrong with male data`
+        }
     
-//     } else if(gender == 'f'){
-//          if( yearOfService >= 10 && qualifications == 'pg'){
-//             return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
-//             So her salary is 12000`
-//         }
+    } else if(gender == 'f'){
+         if( yearOfService >= 10 && qualifications == 'pg'){
+            return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
+            So her salary is 12000`
+        }
         
-//         else if( yearOfService >= 10 && qualifications == 'g'){
-//             return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
-//             So her salary is 9000`
-//         }
-//         else if( yearOfService < 10 && qualifications == 'pg'){
-//             return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
-//             So her salary is 10000`
-//         }
-//         else if( yearOfService < 10 && qualifications == 'g'){
-//             return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
-//             So her salary is 6000`
-//         } else {
-//             return ` something went wrong with female data`
-//         }
-//     }else{
-//         return `something went wrong`
-//     }  
-//     }
-// console.log(dataList ({gender:gen, yearOfService:yearOfSvc, qualifications:qlfCTion}))   
+        else if( yearOfService >= 10 && qualifications == 'g'){
+            return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
+            So her salary is 9000`
+        }
+        else if( yearOfService < 10 && qualifications == 'pg'){
+            return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
+            So her salary is 10000`
+        }
+        else if( yearOfService < 10 && qualifications == 'g'){
+            return `This employee is ${gender} her years of services is ${yearOfService} and she has done ${qualifications}
+            So her salary is 6000`
+        } else {
+            return ` something went wrong with female data`
+        }
+    }else{
+        return `something went wrong`
+    }  
+    }
+console.log(dataList ({gender:gen, yearOfService:yearOfSvc, qualifications:qlfCTion}))   
 
 
 //  Q. if length of three sides  of a triangle are input through the
@@ -259,57 +259,57 @@ var n2 = Shyam ;
 var n3 = Ajay ;
 console.log(youngest ({name1:n1, name2:n2, name3:n3}))
 
-// console.log(`Find ZODIAC  select date and month `)
-// //Q.  Find ZODIAC  select date and month...... 
-// const month = prompt("Enter month from 1 to 12");
-// const date = prompt("Enter date from 1 to 31 ");
+console.log(`Find ZODIAC  select date and month `)
+//Q.  Find ZODIAC  select date and month...... 
+const month = prompt("Enter month from 1 to 12");
+const date = prompt("Enter date from 1 to 31 ");
 
-// function findZodiac ({m, d}){
-//     if (m <= 12 && d <= 31 && m > 0 && d > 0){
-//    if ((m==12 && d>=22) || (m == 1 && d <= 19)){
-//     console.log("Your ZODIAC is CAPRICORN");
-//    }
-//    else if ((m ==1 && d >= 20) || (m == 2 && d <= 17)){
-//     console.log("Your ZODIAC is AQUARIUS");
-//    }
-//    else if ((m ==2 && d >= 18) || (m == 3 && d <= 19)){
-//     console.log("Your ZODIAC is PISCES");
-//    }
-//    else if ((m ==3 && d >= 20) || (m == 4 && d <= 19)){
-//     console.log("Your ZODIAC is ARIES");
-//    }
-//    else if ((m ==4 && d >= 20) || (m == 5 && d <= 20)){
-//     console.log("Your ZODIAC is TAURUS");
-//    }
-//    else if ((m ==5 && d >= 21) || (m == 6 && d <= 20)){
-//     console.log("Your ZODIAC is GEMINI");
-//    }
-//    else if ((m ==6 && d >= 21) || (m == 7 && d <= 22)){
-//     console.log("Your ZODIAC is CANCER");
-//    }
-//    else if ((m ==7 && d >= 23) || (m == 8 && d <= 22)){
-//     console.log("Your ZODIAC is LEO");
-//    }
-//    else if ((m ==8 && d >= 23) || (m == 9 && d <= 22)){
-//     console.log("Your ZODIAC is VIRGO");
-//    }
-//    else if ((m ==9 && d >= 23) || (m == 10 && d <= 22)){
-//     console.log("Your ZODIAC is LIBRA");
-//    }
-//    else if ((m ==10 && d >= 23) || (m == 11 && d <= 21)){
-//     console.log("Your ZODIAC is SCORPIO");
-//    }
-//    else if ((m ==11 && d >= 22) || (m == 12 && d <= 21)){
-//     console.log("Your ZODIAC is AQUARIUS");
-//    }
-//    else {
-//     console.log(
-//       "Please check your Date of birth and enter correct month and date"
-//     );
-//   }
-//     }
-//     else {
-//         console.log("Please enter a proper date or month");
-//       }
-// }
-// findZodiac ({m:month, d:date})
+function findZodiac ({m, d}){
+    if (m <= 12 && d <= 31 && m > 0 && d > 0){
+   if ((m==12 && d>=22) || (m == 1 && d <= 19)){
+    console.log("Your ZODIAC is CAPRICORN");
+   }
+   else if ((m ==1 && d >= 20) || (m == 2 && d <= 17)){
+    console.log("Your ZODIAC is AQUARIUS");
+   }
+   else if ((m ==2 && d >= 18) || (m == 3 && d <= 19)){
+    console.log("Your ZODIAC is PISCES");
+   }
+   else if ((m ==3 && d >= 20) || (m == 4 && d <= 19)){
+    console.log("Your ZODIAC is ARIES");
+   }
+   else if ((m ==4 && d >= 20) || (m == 5 && d <= 20)){
+    console.log("Your ZODIAC is TAURUS");
+   }
+   else if ((m ==5 && d >= 21) || (m == 6 && d <= 20)){
+    console.log("Your ZODIAC is GEMINI");
+   }
+   else if ((m ==6 && d >= 21) || (m == 7 && d <= 22)){
+    console.log("Your ZODIAC is CANCER");
+   }
+   else if ((m ==7 && d >= 23) || (m == 8 && d <= 22)){
+    console.log("Your ZODIAC is LEO");
+   }
+   else if ((m ==8 && d >= 23) || (m == 9 && d <= 22)){
+    console.log("Your ZODIAC is VIRGO");
+   }
+   else if ((m ==9 && d >= 23) || (m == 10 && d <= 22)){
+    console.log("Your ZODIAC is LIBRA");
+   }
+   else if ((m ==10 && d >= 23) || (m == 11 && d <= 21)){
+    console.log("Your ZODIAC is SCORPIO");
+   }
+   else if ((m ==11 && d >= 22) || (m == 12 && d <= 21)){
+    console.log("Your ZODIAC is AQUARIUS");
+   }
+   else {
+    console.log(
+      "Please check your Date of birth and enter correct month and date"
+    );
+  }
+    }
+    else {
+        console.log("Please enter a proper date or month");
+      }
+}
+findZodiac ({m:month, d:date})

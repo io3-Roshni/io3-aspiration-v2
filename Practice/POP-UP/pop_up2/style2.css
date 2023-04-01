@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 50vh;
+    margin: 0 auto;
+    background: rgb(192, 206, 221);
+    padding: 15px;
+    border-radius: 20px/50px;
+    border: 1px solid #789;
+    background-clip: padding-box;
+    text-align: center;
+}
+.button{
+    font-size: 1.5em;
+    padding: 10px;
+    color: #fff;
+    border-radius: 20px/50px;
+    border: 1px solid #789;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.button:hover{
+    background: #123;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+}
+.popup{
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+.popup h1{
+    margin-top: 0;
+    color:#123;
+    font-family:Tahoma, Arial, Helvetica, sans-serif; 
+}
+.popup .close{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition:all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(14, 29, 37);
+}
+.popup .close:hover{
+    color:red
+}
+.popup content{
+    max-height: 30%;
+    overflow: auto;
+
+} @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }

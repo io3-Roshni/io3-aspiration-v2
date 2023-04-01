@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form id="signup-form">
+        <h2>Sign Up</h2>
+        <div class="form-group">
+          <label class="label" for="full-name">Full Name</label>
+          <input type="text" id="full-name" name="full-name" required>
+        </div>
+        <div class="form-group">
+          <label class="label" for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label class="label" for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+          <label class="label" for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" class="error" name="confirm-password" required>
+          <span id="error"></span>
+        </div>
+        <div class="form-group">
+          <label class="label" for="birthday">Birthday</label>
+          <input type="date" id="birthday" name="birthday" required>
+        </div>
+        <button class="btn" type="submit" onclick="submitForm()">Sign Up</button>
+      </form>
+      <script src="./scripts.js"></script>
+
+
+    <br>
+    <br>
+      <form name="myForm" method="post" onsubmit="return validateForm()">
+        <div class="form-group">
+          <label>Your Name</label> <span id="error-name"></span>
+          <input type="text" name="your-name" class="form-control" placeholder="Enter your Name">
+        </div>
+        <div class="form-group"> 
+          <label>Your Email</label> <span id="error-email"></span>
+          <input type="email" name="your-email" class="form-control" placeholder="Enter your Email">
+        </div>
+        <div class="form-group">
+          <label>Your Phone</label> <span id="error-phone"></span>
+          <input type="text" name="your-phone" class="form-control" placeholder="Enter your Phone">
+        </div>
+        <div class="form-group">
+          <label>Your Message</label> <span id="error-message"></span>
+          <textarea name="your-message" class="form-control" rows="10" placeholder="Enter your Message"></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Send">
+        </div>
+      </form>  
+    </body>
+</html>

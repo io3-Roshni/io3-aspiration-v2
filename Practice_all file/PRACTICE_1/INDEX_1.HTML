@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<HTML>
+    <BODY>
+        <head>
+        <META charset="utf-8"/>
+    <META name="viewport" content="width=device-width, initial-scale=1.0" />
+        </head>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            th td tr{
+                
+            }
+            .FIRST{
+                color: rgb(242, 238, 247);
+                background-color: rgb(86, 108, 143);
+                width: 50vw;
+                height: 50vh;
+                margin : 10% auto;
+                font-size: 100px;
+                position: relative;
+
+            }
+             .FIRST::before{
+                content: "";
+                position: absolute;
+                top: 72PX;
+                left: 0;
+                background-image: linear-gradient(45deg, #525, #fff);
+                width: 100%;
+                height: 2vh;
+                border-radius: 50px;
+             }
+             .FIRST::after{
+                content: "";
+                position: absolute;
+                bottom: 55PX;
+                left: 0;
+                background-image: linear-gradient(45deg, #fff, #525);
+                width: 100%;
+                height: 2vh;
+                border-radius: 50px;
+             }
+             table{
+                padding: 15% 19%;
+             }
+        </style>
+    
+        <div class="FIRST">
+            <table>
+            <tr>
+             <th>Roshani</th>
+            </tr>
+            </table>
+        </div>
+    </BODY>
+</HTML>

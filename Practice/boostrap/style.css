@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(37, 77, 63);
+}

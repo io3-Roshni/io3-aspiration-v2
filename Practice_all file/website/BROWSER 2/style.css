@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alkatra', cursive;
+}
+
+/* =================start navigationbar============================*/
+.nav_container {
+  width: 100vw;
+  background: hsl(0, 100%, 100%);
+  position: fixed;
+  top: 0%;
+  left: 0;
+  opacity: 1;
+  z-index: 1;
+}
+.navigation {
+  width: 98.9;
+  height: 10vh;
+  background: #852852;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigation .nav_ {
+  width: 22rem;
+  color: #fff;
+  font-weight: 400;
+  font-size: large;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.navigation .nav_ .nav_child {
+  width: 100px;
+  background: rgb(238, 207, 207);
+  border: 2px solid #fff;
+  border-radius: 20px;
+  margin: 7px;
+  padding: 2px;
+  color: #fff;
+}
+.navigation .nav_ .nav_child a {
+  text-decoration: none;
+  color: #fff;
+}
+.navigation .nav_ .nav_child:hover {
+  background: transparent;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+/* =================ends navigationbar============================*/
+
+/* =================start video container ============================*/
+.container_2 {
+  margin: 4.9% auto;
+  opacity: 0.5;
+  background: #456;
+  width: 98.7vw;
+  height: 100vh;
+}
+.content {
+  position: absolute;
+  top: 20%;
+  padding: 8.5em;
+  opacity: 1;
+}
+.content h1 {
+  color: #fff;
+  padding: 15px;
+  font-size: 45px;
+}
+.content .para {
+  color: aliceblue;
+  padding: 12px;
+  line-height: 2;
+  font-size: 25px;
+}
+/* =================ends video container============================*/
+
+/* =================start footer============================*/
+
+.footer {
+  width: 98.7vw;
+  height: 35vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  background: #852852;
+}
+.footer .footer_ {
+  width: 270px;
+  height: 25vh;
+  padding: 5px;
+  margin: 20px;
+}
+.footer .footer_ h3 {
+  cursor: pointer;
+  color: #fff;
+  padding: 2px;
+  font-size: 25px;
+}
+.footer .footer_ h3 span {
+  color: #fff;
+  width: 10%;
+  transition: 0.1s ease-out;
+  opacity: 0.5;
+}
+.footer .footer_ h3 span:hover {
+  width: 100%;
+
+  padding: 1px;
+  transition: 0.1s ease-out;
+  opacity: 1;
+}
+/* =================ends footer============================*/
+
+/* =================start navigationbar============================*/
+.container_big {
+  width: 80vw;
+  height: 70vh;
+  margin: 10% auto;
+  display: flex;
+  justify-content: space-around;
+}
+.contentAbout {
+  background: #ffffff;
+  height: 70vh;
+  width: 18vw;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px 2px;
+}
+.containers {
+  width: 17.6vw;
+  height: 65vh;
+  margin-top: 15px;
+  border-radius: 20px;
+  padding: 1.5em;
+  overflow: scroll;
+  background: #fff;
+}
+
+.containers::-webkit-scrollbar {
+  width: 5px;
+  height: 0;
+}
+.containers::-webkit-scrollbar-thumb {
+  background: #852852;
+}
+.containers::-webkit-scrollbar-track {
+  background: rgb(202, 200, 200);
+}
+
+/* =================ends About container============================*/
+
+/* =================start contact container============================*/
+.card_big {
+  width: 90vw;
+  height: 100%;
+  margin: 10% auto;
+  background: #456;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+
+}
+.card {
+width: 26vw;
+height: 40vh;
+padding: 15px;
+margin: 25px;
+overflow: scroll;
+background: #ffffff
+
+
+}
+
+/* =================ends contact container============================*/;

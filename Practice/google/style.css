@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.first_1{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    background: cadetblue;
+    margin: 20% auto;
+
+}
+.first{
+    background-color: green;
+    border-radius: 26px;
+    margin: 8px 0px 0px 8px;
+    display: inline-block;
+    width: 94%;
+}
+
+.first h3{
+    position: relative;
+    /* transform: translateX(20%); */
+    background: rgb(17, 110, 138);
+    margin: 0%;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    padding: 11px;
+    overflow: hidden;
+}
+.second{
+    width: 230px;
+    height: 150px;
+    margin: 5px;
+    overflow: hidden;
+}
+.third{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    transition: 22px;
+
+}
+.third img{
+    width: 230px;
+    height: 150px;
+    margin: 1px;
+}

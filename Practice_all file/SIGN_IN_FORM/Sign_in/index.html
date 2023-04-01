@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+  border: 1px solid gray;
+  margin: 5% auto;
+  border-radius: 20px;
+  background-color: rgb(217, 237, 238);
+}
+
+label {
+  font-weight: bold;
+  margin-right: 13px;
+  color: rgb(23, 157, 167);
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  padding: 10px;
+  /* margin-bottom: 20px; */
+  width: 100%;
+  border: none;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  border-radius: 10PX;
+}
+input[type="submit"] {
+  background-color: rgb(23, 157, 167);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-top: 5%;
+  text-align: center;
+}
+
+</style>
+<body>
+    <form>
+        <label for="password">Email:</label>
+        <input type="email" id="password" name="email">
+        <br><br>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <label for="password">Conform:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <input type="submit" value="Sign-In">
+      </form>
+      
+</body>
+</html>

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 50vw;
+    height: 50vh;
+    margin:10% auto;
+}
+.calculator{
+    width: 40vw;
+    height: 50vh;
+}
+.calculator input{
+    width: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+.calculator .display input{
+    width: 200px;
+}
